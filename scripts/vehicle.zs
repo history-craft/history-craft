@@ -1,0 +1,93 @@
+recipes.remove(<vehicle:industrial_fuel_drum>);
+recipes.remove(<vehicle:fuel_drum>);
+
+
+var small_0 = <vehicle:jerry_can>.withTag({fuel: 0});
+var small_1000 = <vehicle:jerry_can>.withTag({fuel: 1000.0 as float});
+var small_2000 = <vehicle:jerry_can>.withTag({fuel: 2000.0 as float});
+var small_3000 = <vehicle:jerry_can>.withTag({fuel: 3000.0 as float});
+var small_4000 = <vehicle:jerry_can>.withTag({fuel: 4000.0 as float});
+var small_5000 = <vehicle:jerry_can>.withTag({fuel: 5000.0 as float});
+
+var big_0 = <vehicle:industrial_jerry_can>.withTag({fuel: 0});
+var big_1000 = <vehicle:industrial_jerry_can>.withTag({fuel: 1000.0 as float});
+var big_2000 = <vehicle:industrial_jerry_can>.withTag({fuel: 2000.0 as float});
+var big_3000 = <vehicle:industrial_jerry_can>.withTag({fuel: 3000.0 as float});
+var big_4000 = <vehicle:industrial_jerry_can>.withTag({fuel: 4000.0 as float});
+var big_5000 = <vehicle:industrial_jerry_can>.withTag({fuel: 5000.0 as float});
+var big_6000 = <vehicle:industrial_jerry_can>.withTag({fuel: 6000.0 as float});
+var big_7000 = <vehicle:industrial_jerry_can>.withTag({fuel: 7000.0 as float});
+var big_8000 = <vehicle:industrial_jerry_can>.withTag({fuel: 8000.0 as float});
+var big_9000 = <vehicle:industrial_jerry_can>.withTag({fuel: 9000.0 as float});
+var big_10000 = <vehicle:industrial_jerry_can>.withTag({fuel: 10000.0 as float});
+var big_11000 = <vehicle:industrial_jerry_can>.withTag({fuel: 11000.0 as float});
+var big_12000 = <vehicle:industrial_jerry_can>.withTag({fuel: 12000.0 as float});
+var big_13000 = <vehicle:industrial_jerry_can>.withTag({fuel: 13000.0 as float});
+var big_14000 = <vehicle:industrial_jerry_can>.withTag({fuel: 14000.0 as float});
+var big_15000 = <vehicle:industrial_jerry_can>.withTag({fuel: 15000.0 as float});
+
+mods.immersiveengineering.BottlingMachine.addRecipe(small_5000, small_0, <liquid:fuelium>*5000);
+mods.immersiveengineering.BottlingMachine.addRecipe(big_5000, big_0, <liquid:fuelium>*5000);
+mods.immersiveengineering.BottlingMachine.addRecipe(big_10000, big_5000, <liquid:fuelium>*5000);
+mods.immersiveengineering.BottlingMachine.addRecipe(big_15000, big_10000, <liquid:fuelium>*5000);
+
+mods.charset.Cauldron.addItemRecipe(small_0, <liquid:fuelium> *1000, small_1000);
+mods.charset.Cauldron.addItemRecipe(small_1000, <liquid:fuelium> *1000, small_2000);
+mods.charset.Cauldron.addItemRecipe(small_2000, <liquid:fuelium> *1000, small_3000);
+mods.charset.Cauldron.addItemRecipe(small_3000, <liquid:fuelium> *1000, small_4000);
+mods.charset.Cauldron.addItemRecipe(small_4000, <liquid:fuelium> *1000, small_5000);
+
+mods.charset.Cauldron.addItemRecipe(big_0, <liquid:fuelium> *1000, big_1000);
+mods.charset.Cauldron.addItemRecipe(big_1000, <liquid:fuelium> *1000, big_2000);
+mods.charset.Cauldron.addItemRecipe(big_2000, <liquid:fuelium> *1000, big_3000);
+mods.charset.Cauldron.addItemRecipe(big_3000, <liquid:fuelium> *1000, big_4000);
+mods.charset.Cauldron.addItemRecipe(big_4000, <liquid:fuelium> *1000, big_5000);
+mods.charset.Cauldron.addItemRecipe(big_5000, <liquid:fuelium> *1000, big_6000);
+mods.charset.Cauldron.addItemRecipe(big_6000, <liquid:fuelium> *1000, big_7000);
+mods.charset.Cauldron.addItemRecipe(big_7000, <liquid:fuelium> *1000, big_8000);
+mods.charset.Cauldron.addItemRecipe(big_8000, <liquid:fuelium> *1000, big_9000);
+mods.charset.Cauldron.addItemRecipe(big_9000, <liquid:fuelium> *1000, big_10000);
+mods.charset.Cauldron.addItemRecipe(big_10000, <liquid:fuelium> *1000, big_11000);
+mods.charset.Cauldron.addItemRecipe(big_11000, <liquid:fuelium> *1000, big_12000);
+mods.charset.Cauldron.addItemRecipe(big_12000, <liquid:fuelium> *1000, big_13000);
+mods.charset.Cauldron.addItemRecipe(big_13000, <liquid:fuelium> *1000, big_14000);
+mods.charset.Cauldron.addItemRecipe(big_14000, <liquid:fuelium> *1000, big_15000);
+
+//HIDE
+mods.jei.JEI.hide(<vehicle:atv_body>);
+mods.jei.JEI.hide(<vehicle:handle_bar>);
+mods.jei.JEI.hide(<vehicle:dune_buggy_body>);
+mods.jei.JEI.hide(<vehicle:dune_buggy_handle_bar>);
+mods.jei.JEI.hide(<vehicle:go_kart_body>);
+mods.jei.JEI.hide(<vehicle:go_kart_steering_wheel>);
+mods.jei.JEI.hide(<vehicle:shopping_cart_body>);
+mods.jei.JEI.hide(<vehicle:mini_bike_body>);
+mods.jei.JEI.hide(<vehicle:mini_bike_handle_bar>);
+mods.jei.JEI.hide(<vehicle:moped_handle_bar>);
+mods.jei.JEI.hide(<vehicle:moped_mud_guard>);
+mods.jei.JEI.hide(<vehicle:moped_body>);
+mods.jei.JEI.hide(<vehicle:lawn_mower_body>);
+mods.jei.JEI.hide(<vehicle:smart_car_body>);
+mods.jei.JEI.hide(<vehicle:aluminum_boat_body>);
+mods.jei.JEI.hide(<vehicle:speed_boat_body>);
+mods.jei.JEI.hide(<vehicle:jet_ski_body>);
+mods.jei.JEI.hide(<vehicle:bumper_car_body>);
+mods.jei.JEI.hide(<vehicle:tow_bar>);
+mods.jei.JEI.hide(<vehicle:fuel_port_closed>);
+mods.jei.JEI.hide(<vehicle:fuel_port_body>);
+mods.jei.JEI.hide(<vehicle:fuel_port_lid>);
+mods.jei.JEI.hide(<vehicle:fuel_port_2_closed>);
+mods.jei.JEI.hide(<vehicle:fuel_port_2_pipe>);
+mods.jei.JEI.hide(<vehicle:key_hole>);
+mods.jei.JEI.hide(<vehicle:models>);
+mods.jei.JEI.hide(<vehicle:couch_helicopter_arm>);
+mods.jei.JEI.hide(<vehicle:trailer_body>);
+mods.jei.JEI.hide(<vehicle:tractor_body>);
+mods.jei.JEI.hide(<vehicle:off_roader_body>);
+mods.jei.JEI.hide(<vehicle:golf_cart_body>);
+mods.jei.JEI.hide(<vehicle:sports_plane_propeller>);
+mods.jei.JEI.hide(<vehicle:sports_plane_wheel_cover>);
+mods.jei.JEI.hide(<vehicle:sports_plane_wing>);
+mods.jei.JEI.hide(<vehicle:sports_plane_body>);
+mods.jei.JEI.hide(<vehicle:couch_helicopter_skid>);
+mods.jei.JEI.hide(<vehicle:sports_plane_leg>);

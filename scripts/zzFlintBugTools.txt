@@ -1,0 +1,373 @@
+val flintSaw = <gregtech:meta_tool:5>.withTag({"GT.ToolStats": {PrimaryMaterial: "flint", HandleMaterial: "wood"}});
+
+
+
+//flint saw
+
+recipes.remove(<gregtech:meta_item_2:32474>);
+recipes.addShaped (<gregtech:meta_item_2:32474>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_acacia>, null],
+  [null,null, null]]);
+
+  
+recipes.remove(<gregtech:meta_item_2:32475>);
+recipes.addShaped (<gregtech:meta_item_2:32475>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_bigoak>, null],
+  [null,null, null]]);
+  
+recipes.remove(<gregtech:meta_item_2:32473>);
+recipes.addShaped (<gregtech:meta_item_2:32473>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_jungle>, null],
+  [null,null, null]]);
+  
+recipes.remove(<gregtech:meta_item_2:32472>);
+recipes.addShaped (<gregtech:meta_item_2:32472>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_birch>, null],
+  [null,null, null]]);
+  
+recipes.remove(<gregtech:meta_item_2:32471>);
+recipes.addShaped (<gregtech:meta_item_2:32471>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_spruce>, null],
+  [null,null, null]]);
+  
+recipes.remove(<gregtech:meta_item_2:32470>);
+recipes.addShaped (<gregtech:meta_item_2:32470>*2,
+ [[null, null,null],
+  [flintSaw, <primal:logs_split_oak>, null],
+  [null,null, null]]);
+  
+  
+  ##################################
+  
+  recipes.addShaped (<primal:brick_mold>,
+ [[null,<ore:oakDerivado>,null],
+  [null, flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:1>,
+ [[null,<ore:spruceDerivado>,null],
+  [null, flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:2>,
+ [[null,<ore:birchDerivado>,null],
+  [null, flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:3>,
+ [[null,<ore:jungleDerivado>,null],
+  [null, flintSaw,null ],
+  [null,null, null]]);
+
+
+
+recipes.addShaped (<primal:brick_mold:4>,
+ [[null,<ore:acaciaDerivado>,null],
+  [null,flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:5>,
+ [[null,<ore:darkoakDerivado>,null],
+  [null,flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:6>,
+ [[null,<ore:ironwoodDerivado>,null],
+  [null,flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:7>,
+ [[null,<ore:yetDerivado>,null],
+  [null,flintSaw,null ],
+  [null,null, null]]);
+
+
+recipes.addShaped (<primal:brick_mold:9>,
+ [[null,<primal:planks:3>,null],
+  [null,flintSaw,null ],
+  [null,null, null]]);
+  
+  
+  recipes.remove(<primal:wood_pin>);
+recipes.addShaped (<primal:wood_pin>*2,
+ [[null,flintSaw,null],
+  [null, <minecraft:stick>, null],
+  [null,null, null]]);
+  
+  ########################################################################
+  
+  recipes.addShaped (<primal:slat_oak>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_oak>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_birch>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_birch>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_spruce>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_spruce>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_jungle>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_jungle>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_acacia>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_acacia>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_bigoak>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_bigoak>, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:slat_ironwood>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_ironwood>, null],
+  [null,null, null]]);  
+
+recipes.addShaped (<primal:slat_yew>,
+ [[null,flintSaw,null],
+  [null,<primal:thin_slab_yew>, null],
+  [null,null, null]]);  
+  
+  ########################################################
+  
+  recipes.addShaped (<primal:logs_split_yew>*2,
+ [[null, flintSaw,null],
+  [null, yetDerivado, null],
+  [null,null, null]]);
+  
+  
+recipes.addShaped (<primal:logs_split_oak>*2,
+ [[null, flintSaw,null],
+  [null, oakDerivado, null],
+  [null,null, null]]);
+  
+ 
+recipes.addShaped (<primal:logs_split_birch>*2,
+ [[null, flintSaw,null],
+  [null, birchDerivado, null],
+  [null,null, null]]);
+  
+ 
+  
+recipes.addShaped (<primal:logs_split_bigoak>*2,
+ [[null, flintSaw,null],
+  [null, darkoakDerivado, null],
+  [null,null, null]]);
+
+  
+recipes.addShaped (<primal:logs_split_jungle>*2,
+ [[null, flintSaw,null],
+  [null, jungleDerivado, null],
+  [null,null, null]]);
+ 
+  
+recipes.addShaped (<primal:logs_split_ironwood>*2,
+ [[null, flintSaw,null],
+  [null, ironwoodDerivado, null],
+  [null,null, null]]);
+
+  
+recipes.addShaped (<primal:logs_split_spruce>*2,    
+ [[null, flintSaw,null],
+  [null, spruceDerivado, null],
+  [null,null, null]]);
+
+
+  recipes.addShaped (<primal:logs_split_acacia>*2,
+ [[null, flintSaw,null],
+  [null, acaciaDerivado, null],
+  [null,null, null]]);
+  
+  
+recipes.addShaped (<minecraft:stick>*4,
+ [[null, flintSaw,null],
+  [null, <ore:logSplit>, null],
+  [null,null, null]]);
+  
+  ######################################################
+  
+   recipes.addShaped (<primal:worktable_shelf>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log>, null]]);
+  
+  recipes.addShaped (<primal:worktable_shelf:1>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log:1>, null]]);
+  
+  recipes.addShaped (<primal:worktable_shelf:2>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log:2>, null]]);
+  
+    recipes.addShaped (<primal:worktable_shelf:3>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log:3>, null]]);
+  
+      recipes.addShaped (<primal:worktable_shelf:4>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log2>, null]]);
+  
+        recipes.addShaped (<primal:worktable_shelf:5>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<minecraft:log2:1>, null]]);
+  
+  recipes.addShaped (<primal:worktable_shelf:7>,
+ [[null, flintSaw,null],
+  [null, <ore:workbench>, null],
+  [null,<primal:logs:1>, null]]);
+  
+  #################################################################
+  
+  recipes.addShaped (<primal:slat_iron>,
+ [[<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>],
+  [null,flintSaw,null ],
+  [<ceramics:unfired_clay:5>,<ceramics:unfired_clay:5>, <ceramics:unfired_clay:5>]]);
+  
+  ##################################################################
+  
+
+recipes.addShaped (<primal:thin_slab_acacia>*2,
+ [[null, null,null],
+  [flintSaw, slabacaciaDerivado, null],
+  [null,null, null]]);
+
+  
+
+recipes.addShaped (<primal:thin_slab_bigoak>*2,
+ [[null, null,null],
+  [flintSaw, slabdarkoakDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_jungle>*2,
+ [[null, null,null],
+  [flintSaw, slabjungleDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_birch>*2,
+ [[null, null,null],
+  [flintSaw, slabbirchDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_spruce>*2,
+ [[null, null,null],
+  [flintSaw, slabspruceDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_oak>*2,
+ [[null, null,null],
+  [flintSaw, slaboakDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_yew>*2,
+ [[null, null,null],
+  [flintSaw, slabyetDerivado, null],
+  [null,null, null]]);
+  
+
+recipes.addShaped (<primal:thin_slab_ironwood>*2,
+ [[null, null,null],
+  [flintSaw, slabironwoodDerivado, null],
+  [null,null, null]]);
+  
+//tampa barril
+
+
+recipes.addShapeless(<primal:barrel_acacia_lid>, [flintSaw, <primal:thin_slab_acacia>]);
+
+recipes.addShapeless(<primal:barrel_dark_oak_lid>, [flintSaw, <primal:thin_slab_bigoak>]);
+
+recipes.addShapeless(<primal:barrel_birch_lid>, [flintSaw, <primal:thin_slab_birch>]);
+
+recipes.addShapeless(<primal:barrel_oak_lid>, [flintSaw, <primal:thin_slab_oak>]);
+
+recipes.addShapeless(<primal:barrel_jungle_lid>, [flintSaw, <primal:thin_slab_jungle>]);
+
+recipes.addShapeless(<primal:barrel_spruce_lid>, [flintSaw, <primal:thin_slab_spruce>]);
+
+recipes.addShapeless(<primal:barrel_ironwood_lid>, [flintSaw, <primal:thin_slab_ironwood>]);
+
+recipes.addShapeless(<primal:barrel_yew_lid>, [flintSaw, <primal:thin_slab_yew>]);
+
+//Drying hack
+
+
+recipes.addShaped (<primal:drying_rack>,
+ [[<primal:slat_oak>,<primal:slat_oak>,<primal:slat_oak>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [oakDerivado,null,oakDerivado]]);
+  
+recipes.addShaped (<primal:drying_rack:1>,
+ [[<primal:slat_spruce>,<primal:slat_spruce>,<primal:slat_spruce>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [spruceDerivado,null,spruceDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:2>,
+ [[<primal:slat_birch>,<primal:slat_birch>,<primal:slat_birch>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [birchDerivado,null,birchDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:3>,
+ [[<primal:slat_jungle>,<primal:slat_jungle>,<primal:slat_jungle>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [jungleDerivado,null,jungleDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:4>,
+ [[<primal:slat_acacia>,<primal:slat_acacia>,<primal:slat_acacia>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [acaciaDerivado,null,acaciaDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:5>,
+ [[<primal:slat_bigoak>,<primal:slat_bigoak>,<primal:slat_bigoak>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [darkoakDerivado,null,darkoakDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:6>,
+ [[<primal:slat_ironwood>,<primal:slat_ironwood>,<primal:slat_ironwood>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [ironwoodDerivado,null,ironwoodDerivado]]);
+  
+
+recipes.addShaped (<primal:drying_rack:7>,
+ [[<primal:slat_yew>,<primal:slat_yew>,<primal:slat_yew>],
+  [<primal:wood_pin>,flintSaw,<primal:wood_pin>],
+  [yetDerivado,null,yetDerivado]]);

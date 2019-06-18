@@ -1,0 +1,12 @@
+{
+  "mods": [
+    {
+      "modId": "mod2whiteList",
+      "hide": true,
+      "whiteList": [
+        "item1",
+        "item2"
+      ]
+    }
+  ]
+}

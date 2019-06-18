@@ -1,0 +1,19 @@
+Exemplos
+
+recipes.addShapeless(<magneticraft:crafting:5>,[<extraplanets:tools:2>,oilseed,<magneticraft:crafting:6>]);
+
+recipes.addShaped (<magneticraft:stone_hammer>,
+ [[null, <ore:cobblestone>,<betterwithmods:material:3>],
+  [null, <tconstruct:tool_rod>, <ore:cobblestone>],
+  [<ore:stickWood>,null, null]]);
+  
+  recipes.addShapedMirrored
+  
+  hide = mods.jei.JEI.hide(<tconstruct:stone_torch>);
+
+
+######### Mudar nome item  
+<primal:slat_iron>.displayName = "Ceramic Slats"; 
+
+####### transform
+recipes.addShapeless(<minecraft:planks> * 4, [<minecraft:flint>, <minecraft:log>.transformReplace(<some_mod:bark>)]);
