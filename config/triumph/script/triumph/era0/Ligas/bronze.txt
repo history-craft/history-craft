@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("gregtech:meta_item_1",10095)
+
+//Set title String
+setTitle("Bronze")
+
+//Set description String
+setDescription("Bronze é uma série de ligas metálicas que tem como base o cobre e o estanho e proporções variáveis de outros elementos como zinco, alumínio, antimônio, níquel, fósforo, chumbo entre outros com o objetivo de obter características superiores a do cobre. O estanho tem a característica de aumentar a resistência mecânica e a dureza do cobre sem alterar a sua ductibilidade. O processo de fabricação consiste em misturar um mineral de cobre [calcopirita, malaquita ou outro] com o estanho [cassiterita] em um alto-forno alimentado com carbono [carvão vegetal ou coque]. O anidrido carbônico reduz os minerais a metais, o cobre e estanho se fundem e se ligam a percentual de estanho de 2 a 11%.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Brass", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",10095)
+setPos(-77,-192)

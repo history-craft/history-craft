@@ -1,0 +1,12 @@
+setTitle("Vem tranquilo")
+
+setIcon(<conarm:armorstation>)
+
+setDescription("Use a Armour Station para montar armaduras customizadas, igual as ferramentas do Tinkers")
+
+setParent("triumph:era1/blank_pattern")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("Coloque no chão uma Armour Station", "minecraft:placed_block")
+criteria.setBlock(<conarm:armorstation>)

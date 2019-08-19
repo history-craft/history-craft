@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("gregtech:meta_item_1",10197)
+
+//Set title String
+setTitle("Ferro Fundido")
+
+//Set description String
+setDescription("O ferro fundido é uma liga de ferro em mistura eutética com elementos à base de carbono e silício. Forma uma liga metálica de ferro, carbono [a partir de 2,11%], silício [entre 1 e 3%], podendo conter outros elementos químicos. Sua diferença para o aço é que este também é uma liga metálica formada essencialmente por ferro e carbono, mas com percentagens entre 0,002 e 2,11%. Os ferros fundidos dividem-se em três tipos principais: branco, cinzento e nodular.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Crude Iron", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",10197)
+setPos(-103,-192)

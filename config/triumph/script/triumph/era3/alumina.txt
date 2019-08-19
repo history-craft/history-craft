@@ -1,0 +1,20 @@
+//Set the icon item
+setIcon(<gregtech:meta_item_1:2700>)
+
+//Set the title String
+setTitle("Óxido de Aluminio (Alumina)")
+
+//Set the description String
+setDescription("Use a Arc Furnace para produzir Alumina (Oxido de Aluminio) a partir do Hidroxido de Aluminio feito na Chemical Reactor, use a Electric Blast Furnace para transformar a Alumina em Aluminio")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/arcfurnace")
+setRequiresParent(true)
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Alumina", "minecraft:inventory_changed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setItem("gregtech:meta_item_1",2700)
+setPos(160,89)

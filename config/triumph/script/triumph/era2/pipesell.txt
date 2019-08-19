@@ -1,0 +1,19 @@
+//Set icon item
+setIcon("buildcrafttransport:waterproof")
+
+//Set title String
+setTitle("Eu fui longe atrás de cactus")
+
+//Set description String
+setDescription("Use cactus para selar os pipes e permitir que levem liquidos")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era2/root")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Pipe Sealant", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("buildcrafttransport:waterproof")

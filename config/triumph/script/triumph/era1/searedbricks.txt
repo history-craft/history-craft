@@ -1,0 +1,19 @@
+//Set icon item
+setIcon("tconstruct:materials")
+
+//Set title String
+setTitle("I'm Grout")
+
+//Set description String
+setDescription("Use o Grout na Wooden Brick Form para obter Unfired Seared Bricks, depois basta colocar na fornalha, você ja tem uma né?")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/brickform")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Seared Bricks", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("tconstruct:materials")

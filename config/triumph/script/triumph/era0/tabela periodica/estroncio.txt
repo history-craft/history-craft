@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:9064>)
+
+//Set title String
+setTitle("Estrôncio - Sr")
+
+//Set description String
+setDescription("O estrôncio é um elemento químico de símbolo Sr de número atômico 38 [38 prótons e 38 elétrons] e de massa atómica igual a 87,6 u. À temperatura ambiente, o estrôncio encontra-se no estado sólido. É um metal alcalino-terroso. Abundante na natureza na forma de sulfatos e carbonatos. Sua principal aplicação é em cristais para tubos de raios catódicos de televisores coloridos.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(14540032)
+setCompletedTitleColor(14540032)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2064)
+setPos(46,-88)

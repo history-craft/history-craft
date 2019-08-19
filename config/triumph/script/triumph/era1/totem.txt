@@ -1,0 +1,12 @@
+setTitle("keepInventory false 4ever")
+
+setIcon(<minecraft:totem_of_undying>)
+
+setDescription("Quando estiver proximo de sua morte coloque o totem of undying na mão, ele prevenirá que você morra, fique putinho e deslogue")
+
+setParent("triumph:era1/copper_pickaxe")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("Obtenha um Totem of undying", "minecraft:inventory_changed")
+criteria.addItem("minecraft:totem_of_undying")

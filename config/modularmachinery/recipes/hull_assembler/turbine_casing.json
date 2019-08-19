@@ -1,0 +1,43 @@
+{
+    "machine": "hull_assembler",
+    "registryName": "turbine_casing",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "water",
+            "amount": 640
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 3840
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_2@26095",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@12095",
+            "amount": 4
+        },
+				{
+            "type": "item",
+            "io-type": "input",
+            "item": "ore:frameGtBronze",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:turbine_casing@0",
+            "amount": 1
+        }
+    ]
+}

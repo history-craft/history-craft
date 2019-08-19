@@ -13,8 +13,14 @@
     {
       "oreDict": "ingot"
     },
-    {
-      "oreDict": "circuit"
+	{
+      "oreDict": "stick"
+    },
+	{
+      "oreDict": "dust"
+    },
+	{
+      "oreDict": "nugget"
     }
   ]
 }

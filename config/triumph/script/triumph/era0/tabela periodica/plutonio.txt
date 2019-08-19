@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10052>)
+
+//Set title String
+setTitle("Plutónio - Pu")
+
+//Set description String
+setDescription("Ambos o plutônio-239 e plutônio-241 são físseis, significando que eles podem sustentar uma reação em cadeia, levando a aplicações em armas nucleares e reatores nucleares. Plutônio-240 exibe uma grande taxa de fissão espontânea, elevando o fluxo de nêutrons de qualquer amostra que o contem. A presença de plutônio-240 limita usabilidade de uma amostra de plutônio em armas ou a sua qualidade em como um combustível em um reator, e a percentagem de Pu-240 determina o seu grau (grau para armas, combustível ou reator).")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16748475)
+setCompletedTitleColor(16748475)
+setRequirements("any")
+setRequiresParent(false)
+criteria2 = addCriteria("Tenha Calcium ", "minecraft:inventory_changed")
+criteria2.addItem("gregtech:meta_item_1",10052)
+setPos(228,16)

@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_pentlandite_0>)
+
+//Set title String
+setTitle("Pentlandita")
+
+//Set description String
+setDescription("A pentlandita é um mineral pertencente ao sistema cúbico, de composição (Fe,Ni)9S8. Ocorre, geralmente, em agregados granulares e nas camadas de 5 a 65")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_pentlandite_0")
+setPos(-307,-140)

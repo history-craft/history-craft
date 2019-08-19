@@ -27,35 +27,51 @@ for recipe in RecipeMaps.getPrimitiveBlastFurnaceRecipes() {
 }
 PBFRecipeBuilder.start()
     .input(<gregtech:meta_item_1:2131>*1)
-    .output(<primal:crude_iron_ingot>*1)
+    .output(<gregtech:meta_item_1:9512>*6)
+    .duration(550)
+    .fuelAmount(2)
+    .buildAndRegister();
+
+PBFRecipeBuilder.start()
+    .input(<gregtech:meta_item_1:3131>*2)
+    .output(<gregtech:meta_item_1:9512>*6)
     .duration(550)
     .fuelAmount(2)
     .buildAndRegister();
 	
 PBFRecipeBuilder.start()
     .input(<gregtech:meta_item_1:2963>*2)
-    .output(<primal:crude_iron_ingot>*1)
+    .output(<gregtech:meta_item_1:9512>*6)
     .duration(550)
     .fuelAmount(2)
-    .buildAndRegister();
+    .buildAndRegister(); 
 
+	
 PBFRecipeBuilder.start()
-    .input(<gregtech:meta_item_1:2512>*1) 
-    .output(<primal:crude_iron_ingot>*1)
-    .duration(550)
+    .input(<gregtech:meta_item_1:2096>*1)
+    .output(<gregtech:meta_item_1:9512>*8)
+    .duration(650)
     .fuelAmount(2)
     .buildAndRegister();
+	
 
 PBFRecipeBuilder.start()
-    .input(<primal:ore_cluster_magnetite>*3)
-    .output(<primal:crude_iron_ingot>*1)
-    .duration(550)
+    .input(<gregtech:meta_item_1:2199>*1)
+    .output(<gregtech:meta_item_1:9512>*8)
+    .duration(650)
     .fuelAmount(2)
     .buildAndRegister();
 	
 PBFRecipeBuilder.start()
-    .input(<primal:crude_iron_ingot>*1)
-    .output(<gregtech:meta_item_1:10197>*1)
+    .input(	<gregtech:meta_item_1:2090>*1)
+    .output(<gregtech:meta_item_1:9512>*9)
     .duration(650)
+    .fuelAmount(2)
+    .buildAndRegister();
+	
+PBFRecipeBuilder.start()
+    .input(<gregtech:meta_item_1:2708>*1) 
+    .output(<gregtech:meta_item_1:9512>*6)
+    .duration(550)
     .fuelAmount(2)
     .buildAndRegister();

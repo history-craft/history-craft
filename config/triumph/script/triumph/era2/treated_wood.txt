@@ -1,0 +1,11 @@
+setTitle("Madeira Tratada")
+
+setIcon("immersiveengineering:treated_wood")
+
+setDescription("Com 1 balde de Creosote Oil você conseguirá fazer 8 madeiras tratadas")
+
+setParent("triumph:era2/creosoto")
+setRequiresParent(true)
+
+criteria = addCriteria("Obtenha uma Treated Wood", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:treated_wood")

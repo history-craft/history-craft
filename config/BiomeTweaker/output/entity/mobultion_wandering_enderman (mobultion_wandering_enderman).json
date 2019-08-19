@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobultion:wandering_enderman",
+  "Registry ID": "mobultion:wandering_enderman",
+  "Class": "mcpecommander.mobultion.entity.entities.endermen.EntityWanderingEnderman"
+}

@@ -1,0 +1,31 @@
+{
+    "machine": "automatepbf",
+    "registryName": "nsei_coke",
+    "recipeTime": 500,
+    "requirements": [
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "immersiveengineering:material@6",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:meta_item_1@110",
+            "amount": 1
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@3131",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:meta_item_1@9512",
+            "amount": 6
+        }
+    ]
+}

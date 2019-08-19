@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2063>)
+
+//Set title String
+setTitle("Sódio - Na")
+
+//Set description String
+setDescription("O sódio é um elemento químico de símbolo Na, de número atômico 11 [11 prótons e 11 elétrons], massa atômica 23 u [nº de protões + nº de neutrões]. É um metal alcalino, sólido na temperatura ambiente, macio, untuoso, de coloração branca, ligeiramente prateada. Foi isolado em 1807 por Sir Humphry Davy por meio da eletrólise da soda cáustica fundida. O sódio metálico emprega-se em síntese orgânica como agente redutor. É também componente do cloreto de sódio [NaCl] necessário para a vida. É um elemento químico essencial.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16756224)
+setCompletedTitleColor(16756224)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Sodium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2063)
+setPos(20,-140)

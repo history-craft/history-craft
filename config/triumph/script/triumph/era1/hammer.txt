@@ -1,0 +1,19 @@
+//Set icon item
+setIcon("immersiveengineering:tool")
+
+//Set title String
+setTitle("Moldes")
+
+//Set description String
+setDescription("Derreta Zinco[1] e Cobre[3] na Smeltery, para obter a liga Brass, após isso use um tijolo como molde para fazer a Ingot Cast, obtenha lingotes de cobre, e faça seu Engineer's Hammer")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/smeltery")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Engineer's Hammer", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("immersiveengineering:tool")

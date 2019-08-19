@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobultion:shaman_skeleton",
+  "Registry ID": "mobultion:shaman_skeleton",
+  "Class": "mcpecommander.mobultion.entity.entities.skeletons.EntityShamanSkeleton"
+}

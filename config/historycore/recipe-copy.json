@@ -1,9 +1,9 @@
 {
   "crusher": {
     "removedByProduct": [
-      "oredict1",
-      "oredict2",
-      "oredict3"
+      "dustAluminium",
+      "dustUranium",
+      "dustCobalt"
     ]
   }
 }

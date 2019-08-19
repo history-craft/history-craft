@@ -7,7 +7,6 @@ mods.immersiveengineering.Excavator.removeMineral("Lead");
 mods.immersiveengineering.Excavator.removeMineral("Nickel");
 
 var cinnabar = Excavator.getMineral("Cinnabar");
-cinnabar.removeOre("oreRedstone");
 cinnabar.removeOre("oreSulfur");
 cinnabar.addOre("oreBornite",0.1);
 
@@ -22,6 +21,7 @@ galena.addOre("oreArgentite",0.02);
 
 var bauxite = Excavator.getMineral("Bauxite");
 bauxite.removeOre("oreAluminum");
+bauxite.removeOre("oreTitanium");
 bauxite.addOre("oreIlmenite",0.05);
 bauxite.addOre("oreRutile",0.01);
 bauxite.addOre("oreBauxite",0.7);
@@ -36,6 +36,7 @@ cassiterite.addOre("oreCassiterite",0.5);
 var coal = Excavator.getMineral("Coal");
 coal.removeOre("oreEmerald");
 coal.addOre("oreGraphite",0.3);
+coal.addOre("oreLignite",0.5);
 
 var quartzite = Excavator.getMineral("Quartzite");
 quartzite.addOre("oreQuartzite",0.6);
@@ -91,12 +92,12 @@ uranio.removeOre("oreUranium");
 uranio.removeOre("oreLead");
 uranio.addOre("orePitchblende",0.7);
 uranio.addOre("oreMonazite",0.8);
-uranio.addOre("oreUraninite",0.02);
+uranio.addOre("oreThorite",0.3);
 
 mods.immersiveengineering.Excavator.addMineral("Chalcopyrite", 50, 0.05, ["oreChalcopyrite","orePyrite","oreEnargite","oreBornite"], [0.5,0.4,0.2,0.4]);
 mods.immersiveengineering.Excavator.addMineral("Pyrolusite", 25, 0.05, ["oreGrossular","oreSpessartine","orePyrolusite","oreTantalite"], [0.3,0.3,0.3,0.1]);
 mods.immersiveengineering.Excavator.addMineral("Limonite", 50, 0.05, ["oreBrownLimonite","oreYellowLimonite","oreBandedIron","oreMalachite"], [0.3,0.3,0.2,0.1]);
-mods.immersiveengineering.Excavator.addMineral("Garnierite", 50, 0.05, ["oreGarnierite","orePentlandite","oreBandedIron","oreCobaltite"], [0.4,0.3,0.2,0.05]);
+mods.immersiveengineering.Excavator.addMineral("Garnierite", 50, 0.05, ["oreGarnierite","orePentlandite","oreBandedIron","oreCobaltite"], [0.3,0.4,0.2,0.05]);
 mods.immersiveengineering.Excavator.addMineral("Olivine", 50, 0.05, ["oreOlivine","oreMagnesite","oreBentonite","oreGlauconite"], [0.4,0.3,0.2,0.05]);
 mods.immersiveengineering.Excavator.addMineral("Sapphire", 50, 0.05, ["oreAlmandine","orePyrope","oreSapphire","oreGreenSapphire"], [0.4,0.2,0.3,0.2]);
 mods.immersiveengineering.Excavator.addMineral("Tungstate", 50, 0.05, ["oreScheelite","oreWolframite","oreTungstate","oreLepidolite"], [0.5,0.2,0.2,0.3]);

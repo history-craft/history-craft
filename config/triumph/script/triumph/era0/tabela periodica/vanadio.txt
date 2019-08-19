@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10077>)
+
+//Set title String
+setTitle("Vanádio - V")
+
+//Set description String
+setDescription("O Vanádio é um elemento químico, símbolo V, número atômico 23 [23 prótons e 23 elétrons] de massa atómica 50,94 u que, nas condições ambientes, é encontrado no estado sólido. É um metal dúctil e macio, geralmente substitui o Fe3+ nos minerais [notavelmente na magnetita] em lugar de formar os seus próprios minerais. É, ainda assim, encontrado em diversos minerais, e é empregado principalmente em algumas ligas metálicas.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10077)
+setPos(124,-114)

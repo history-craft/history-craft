@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10126>)
+
+//Set title String
+setTitle("Invar")
+
+//Set description String
+setDescription("Invar são ligas à base de Ni (Níquel) e Fe (Ferro), que apresentam a propriedade de um baixo coeficiente de dilatação térmica. O material é utilizado para inúmeras aplicações onde seja necessário que a dilatação por variação de temperatura seja quase nula. Tais como: trenas para topografia e outros instrumentos de medidas, relógios mecânicos de precisão, máscaras perfuradas de tubos de TV, etc. Também encontra aplicação na fabricação de lâminas bimetálicas para uso em termostatos eletromecânicos.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Magnalium", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",10126)
+setPos(-51,-166)

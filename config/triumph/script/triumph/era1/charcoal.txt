@@ -1,0 +1,16 @@
+//Set icon item
+setIcon("minecraft:coal",1)
+
+//Set title String
+setTitle("Churrasco")
+
+//Set description String
+setDescription("Use a crafting para fazer Wood Pile, enterre em blocos [Vide JEI] por todos os lados, coloque fogo em um Wood Pile e cubra com o material escolhido, quando as particulas de fumaça cessarem seu charcoal estará pronto junto com cinzas, recolha com uma pá")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/phosdust")
+setRequiresParent(true)
+
+
+criteria = addCriteria("Obtenha Charcoal", "minecraft:inventory_changed")
+criteria.setItem("minecraft:coal",1)

@@ -63,7 +63,39 @@
     {
       "entity": "techguns:tgdummyspawn",
       "creatureType": "monster",
-      "weight": 300,
+      "weight": 1,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "mobultion:knight_zombie",
+      "creatureType": "monster",
+      "weight": 100,
+      "minGroupCount": 2,
+      "maxGroupCount": 4,
+      "spawn": true
+    },
+    {
+      "entity": "mobultion:doctor_zombie",
+      "creatureType": "monster",
+      "weight": 50,
+      "minGroupCount": 1,
+      "maxGroupCount": 2,
+      "spawn": true
+    },
+    {
+      "entity": "mobultion:wandering_enderman",
+      "creatureType": "monster",
+      "weight": 70,
+      "minGroupCount": 1,
+      "maxGroupCount": 1,
+      "spawn": true
+    },
+    {
+      "entity": "techguns:tgdummyspawn",
+      "creatureType": "monster",
+      "weight": 10,
       "minGroupCount": 1,
       "maxGroupCount": 3,
       "spawn": true

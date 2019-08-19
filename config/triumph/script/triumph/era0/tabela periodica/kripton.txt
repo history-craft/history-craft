@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"zinc",Amount:144}}>)
+
+//Set title String
+setTitle("Crípton - Kr")
+
+//Set description String
+setDescription("O crípton é um gás nobre incolor, inodoro, insípido, de muito pequena reatividade, caracterizado por um espectro de linhas verde e vermelha-alaranjada muito brilhante. É um dos produtos da fissão nuclear do urânio. O crípton sólido é branco, de estrutura cristalina cúbica centrada nas faces, igual aos demais gases nobres. Não pode ser obtido no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(3947775)
+setCompletedTitleColor(3947775)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"noble_gases",Amount:1000})
+setPos(462,-114)

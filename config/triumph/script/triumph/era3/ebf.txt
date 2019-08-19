@@ -1,0 +1,16 @@
+
+//Set icon item
+setIcon(<gregtech:machine:511>)
+
+//Set title String
+setTitle("Electric Blast Furnace (EBF)")
+
+//Set description String
+setDescription("O terror do Linus, a grande divisora de aguas, normalmente poucos chegam aqui, mas já que chegou, vamos monta-la, siga o JEI para a montagem correta, lembrando que todos os recipes da EBF funcionam a 120EU portanto será necessarios 4 entradas de 32EU de energia")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/invarplate")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça a EBF Controler (GregTech)", "triumph:player_crafted_item")
+criteria.setItem("gregtech:machine",511)

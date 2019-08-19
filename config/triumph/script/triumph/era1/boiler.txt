@@ -1,0 +1,22 @@
+//Set icon item
+setIcon("gregtech:machine",1)
+
+//Set title String
+setTitle("Boiler")
+setFrameType("challenge")
+setUncompletedIconColor(8947848)
+setCompletedIconColor(6570404)
+setUncompletedTitleColor(8947848)
+setCompletedTitleColor(6570404)
+//Set description String
+setDescription("A boiler precisa de carvão e água para gerar vapor[steam], use água da chuva ou água limpa encontrada em algumas poças, não coloque água quando a boiler estiver quente, ou irá explodi-la")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/bronzebrickhull")
+setRequiresParent(true)
+
+criteria = addCriteria("Obtenha um lingote de Cobre", "minecraft:inventory_changed")
+criteria.addItem("gregtech:machine",1)
+
+//Reward
+setRewardFunction("triumph:era/passoera")

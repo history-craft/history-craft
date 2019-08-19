@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10051>)
+
+//Set title String
+setTitle("Platina  - Pt")
+
+//Set description String
+setDescription(" Por causa da sua escassez na crosta da Terra, já que são produzidas somente alguns milhões de toneladas, ela é considerada o metal mais caro e precioso. A platina é um precioso elemento químico com baixa reatividade. E tem uma extraordinária resistência à corrosão, inclusive sob altas temperaturas, e é também considerada um metal nobre. Consequentemente, a platina é geralmente descoberta pela produção de um fase da platina com outro elemento químico. Como a platina é encontrada naturalmente nos aluviões de diversos rios, ela foi utilizada pela primeira vez pelos nativos pré-colombianos da América do Sul para produzir artefatos.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10051)
+setPos(254,-62)

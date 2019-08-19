@@ -367,14 +367,6 @@
 	</Recipe>
 	<Recipe timeRequired="300" power ="20">
 		<input>
-			<oreDict>ingotPiron</oreDict>
-		</input>
-		<output>
-			<itemStack>gregtech:meta_item_1 2 14512</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="300" power ="20">
-		<input>
 			<oreDict>ingotBlueSteel</oreDict>
 		</input>
 		<output>

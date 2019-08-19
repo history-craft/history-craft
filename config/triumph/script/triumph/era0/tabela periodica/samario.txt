@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10059>)
+
+//Set title String
+setTitle("Samário - Sm")
+
+//Set description String
+setDescription("O samário é um metal terra rara , com brilho prateado brilhante, razoavelmente estável no ar. Inflama-se no ar a temperatura de 150 °C. Existem três estruturas cristalinas para o metal, ocorrendo as transformações nas temperaturas de 734 e 922 °C, respectivamente.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16749359)
+setCompletedTitleColor(16749359)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10059)
+setPos(228,-10)

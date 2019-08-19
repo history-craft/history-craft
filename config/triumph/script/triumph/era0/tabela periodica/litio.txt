@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2036>)
+
+//Set title String
+setTitle("Lítio - Li")
+
+//Set description String
+setDescription("O Lítio é um elemento químico de símbolo Li, número atômico 3 e massa atômica 7, contendo, na sua estrutura, três prótons e três elétrons. Na tabela periódica dos elementos químicos, pertencente ao grupo 1, dos elementos alcalinos. Sob condições normais de temperatura e pressão, é o metal mais leve e menos denso entre os elementos sólidos. Como todos os elementos alcalinos, o lítio têm reatividade e inflamabilidade elevada e, por essa razão, é, geralmente, estocado em óleo mineral. O lítio e seus compostos têm diversas aplicações industriais, incluindo vidros e cerâmicas com resistência ao calor, ligas com alta força específica resistência-peso utilizadas em aeronaves e baterias de lítio e bateria de íon lítio - mais da metade da produção de lítio é consumida para este fim.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16756224)
+setCompletedTitleColor(16756224)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Litium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2036)
+setPos(20,-166)

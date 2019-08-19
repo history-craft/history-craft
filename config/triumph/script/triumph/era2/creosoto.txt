@@ -1,0 +1,17 @@
+setTitle("Óleo de Creosoto")
+
+setIcon("forge:bucketfilled", 0, {FluidName: "creosote", Amount: 1000})
+
+setDescription("O creosoto, frequentemente referido como creosote, é um composto químico derivado do destilado de alquitranos procedentes da combustão de carbonos graxos preferencialmente a temperaturas compreendidas entre 900 e 1200 ºC. A destilação mencionada se realiza entre 180 ºC e 400 ºC.A composição é muito variada em função das distintas utilizações. A principal propriedade é sua qualidade biocida para os agentes causadores da deterioração da madeira, a qual se protege impregnando-a com o produto mediante processo que habitualmente se realiza em um autoclave e que se denomina creosotado.")
+
+setParent("triumph:era2/cokeoven")
+setRequiresParent(true)
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Tenha um Balde com Creosote", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"creosote",Amount:1000})
+
+
+criteria2 = addCriteria("Tenha um Balde de Argila com Creosote", "minecraft:inventory_changed") 
+criteria2.addItem("ceramics:clay_bucket", 0, {fluids: {FluidName: "creosote", Amount: 1000}})

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10013>)
+
+//Set title String
+setTitle("Cádmio - Cd")
+
+//Set description String
+setDescription("O cádmio é um metal branco azulado, dúctil e maleável. Pode-se cortá-lo facilmente com uma faca. Em alguns aspectos é similar ao zinco. A toxicidade que apresenta é similar a do mercúrio, possivelmente se liga a resíduos de cisteína. A metalotioneina, que apresenta resíduos de cisteína, se liga seletivamente com o cádmio. Seu estado de oxidação mais comum é o +2. Pode apresentar o estado de oxidação +1, mas que é muito instável.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10013)
+setPos(306,-88)

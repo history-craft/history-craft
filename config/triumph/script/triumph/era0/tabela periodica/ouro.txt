@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<minecraft:gold_ingot>)
+
+//Set title String
+setTitle("Ouro - Au")
+
+//Set description String
+setDescription("É um metal de transição brilhante, amarelo, denso, maleável, dúctil que não reage com a maioria dos produtos químicos, mas é sensível ao cloro e ao bromo. À temperatura ambiente, apresenta-se no estado sólido. Este metal encontra-se normalmente em estado puro, em forma de pepitas e depósitos aluviais, sendo um dos metais tradicionalmente usados para cunhar moeda. É tão facilmente manuseável e maleável que, com apenas um grama de ouro, é possível obter um fio de 3 quilômetros de extensão e 0,005 milímetros de diâmetro, ou uma lâmina quadrada de 70 centímetros de largura e espessura de 0,1 micrômetro. O ouro puro é demasiadamente mole para ser utilizado. Por essa razão, geralmente é endurecido formando liga metálica com prata e cobre. O ouro e as suas diversas ligas metálicas são muito empregados em joalherias, fabricação de moedas e como padrão monetário em muitos países. Devido à sua boa condutividade elétrica, resistência à corrosão e uma boa combinação de propriedades físicas e químicas, apresenta diversas aplicações industriais.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("minecraft:gold_ingot")
+setPos(280,-62)

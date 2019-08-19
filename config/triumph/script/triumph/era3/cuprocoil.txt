@@ -1,0 +1,19 @@
+//Set the icon item
+setIcon(<gregtech:wire_coil>)
+
+//Set the title String
+setTitle("Agora só falta mais 15")
+
+//Set the description String
+setDescription("Você precisará de 16 Cupronickel Coil Block para montar a Electric Blast Furnace")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/cupronickel")
+setRequiresParent(true)
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Invar Plate", "minecraft:inventory_changed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setItem("gregtech:wire_coil")

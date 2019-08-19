@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"iron",Amount:144}}>)
+
+//Set title String
+setTitle("Rádon - Rn")
+
+//Set description String
+setDescription("É um elemento gasoso radioativo, enquadrado dentro dos chamados 'gases nobres'. Na forma gasosa, é incolor, inodoro e insípido; na forma sólida, tem cor avermelhada. Na tabela periódica, situa-se na coluna 8A, com o número 86 e símbolo Rn. A sua massa atômica é de 222, o que implica que tem por média 136 nêutrons. No estado neutro, possui o mesmo número de elétrons e de prótons, 86. Não pode ser obtido no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(3947775)
+setCompletedTitleColor(3947775)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"noble_gases",Amount:1000})
+setPos(462,-62)

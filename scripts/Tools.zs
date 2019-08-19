@@ -396,7 +396,7 @@ recipes.remove(<ic2:electric_hoe:26>);
 mods.jei.JEI.hide(<ic2:electric_hoe:26>);
 //bronze shovel
 recipes.remove(<ic2:bronze_shovel>);
-mods.jei.JEI.hide(<ic2:bronze_shovel>);*/
+mods.jei.JEI.hide(<ic2:bronze_shovel>);
 
 
 
@@ -424,7 +424,7 @@ recipes.remove(<betterwithmods:steel_shovel>);
 mods.jei.JEI.hide(<betterwithmods:steel_shovel>);
 
 #galactIcraft core
-/*/heavy duty sword
+//heavy duty sword
 recipes.remove(<galacticraftcore:steel_sword>);
 mods.jei.JEI.hide(<galacticraftcore:steel_sword>);
 //heavy duty axe
@@ -500,7 +500,7 @@ mods.jei.JEI.hide(<enderio:item_dark_steel_bow>);
 #Ender zoo
 /*/Guardian bow
 recipes.remove(<enderzoo:guardiansbow>);
-mods.jei.JEI.hide(<enderzoo:guardiansbow>);*/
+mods.jei.JEI.hide(<enderzoo:guardiansbow>);
 
 //sword_crude_wootz
 recipes.remove(<primal:sword_crude_wootz>);
@@ -626,17 +626,17 @@ mods.jei.JEI.hide(<primal:flint_shears>);
 recipes.remove(<primal:emerald_axe>);
 mods.jei.JEI.hide(<primal:emerald_axe>);
 
-/*/bone_shears
+//bone_shears
 recipes.remove(<primal:bone_shears>);
-mods.jei.JEI.hide(<primal:bone_shears>);*/
+mods.jei.JEI.hide(<primal:bone_shears>);
 
 //obsidian_axe
 recipes.remove(<primal:obsidian_axe>);
 mods.jei.JEI.hide(<primal:obsidian_axe>);
 
-/*flint_hatchet
+//flint_hatchet
 recipes.remove(<primal:flint_hatchet>);
-mods.jei.JEI.hide(<primal:flint_hatchet>); */
+mods.jei.JEI.hide(<primal:flint_hatchet>); 
 
 //quartz_hatchet
 recipes.remove(<primal:quartz_hatchet>);
@@ -720,4 +720,4 @@ mods.jei.JEI.hide(<primal:flint_pickaxe>);
 
 //flint_pickaxe
 recipes.remove(<primal:smelter>);
-mods.jei.JEI.hide(<primal:flint_pickaxe>);
+mods.jei.JEI.hide(<primal:flint_pickaxe>);*/

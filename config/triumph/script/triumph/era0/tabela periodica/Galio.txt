@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10025>)
+
+//Set title String
+setTitle("Gálio  - Ga")
+
+//Set description String
+setDescription("O gálio é um metal mole, grisáceo no estado líquido e prateado brilhante ao solidificar. Quando sólido desagrega a baixas temperaturas pois funde ao redor da temperatura ambiente [como o césio, mercúrio e rubídio], inclusive quando colocado nas mãos, devido ao seu baixo ponto de fusão [28,76 °C]. A faixa de temperatura na qual permanece no estado líquido é um dos mais altos entre os metais [2.174 °C separam seus pontos de fusão e ebulição] e sua pressão de vapor é baixa mesmo a altas temperaturas. O gálio se expande aproximadamente 3,1% ao solidificar e flutua no seu líquido do mesmo modo que o gelo na água. É considerado o único metal encontrado em árvores, exclusivamente a espécie Flor Cadáver [Amorphophallus titanum].")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(58015)
+setCompletedTitleColor(58015)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10025) 
+setPos(332,-114)

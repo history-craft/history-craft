@@ -1,0 +1,12 @@
+setTitle("Evoluçao de ferramentas")
+
+setIcon(<tconstruct:pick_head, ore:partPickHead, meta:0, count:1, nbt:{Material:"copper"}>)
+
+setDescription("Evolua suas tools para cobre usando a Smeltery, moldes poderão ser feitos de Clay ou Brass, com a Smeltery poderemos fazer algumas ligas, como o Brass")
+
+setParent("triumph:era1/smeltery")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("Obtenha uma cabeça de Picareta de Copper", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pick_head, ore:partPickHead, meta:0, count:1, nbt:{Material:"copper"}>)

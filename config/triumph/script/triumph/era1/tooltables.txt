@@ -1,0 +1,19 @@
+
+//Set icon item
+setIcon("tconstruct:tooltables")
+
+//Set title String
+setTitle("Craftando")
+
+//Set description String
+setDescription("A vantagem da Crafting Station para a mesa de trabalho Vanilla é que seus items permanecem lá mesmo ao sair do GUI")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/blank_pattern")
+setRequiresParent(true)
+
+//Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
+criteria = addCriteria("Coloque ao Chao a Crafting Station", "minecraft:placed_block")
+
+//Sets the required block for the criteria. This is the block that needs to be placed by the player.
+criteria.setBlock("tconstruct:tooltables")

@@ -1,0 +1,16 @@
+
+//Set icon item
+setIcon(<gregtech:machine:190>)
+
+//Set title String
+setTitle("Reações Químicas")
+
+//Set description String
+setDescription("A Chemical Reactor serve para fazer reações quimicas entre materiais")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/energytransport")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça a Chemical Reactor (GregTech)", "triumph:player_crafted_item")
+criteria.setItem("gregtech:machine",190)

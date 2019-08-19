@@ -1,0 +1,11 @@
+setTitle("Blueprint em branco")
+
+setIcon(<contenttweaker:e_blueprint>)
+
+setDescription("Faça um Empty Blueprint, para criar itens na Engineer Workbench")
+
+setParent("triumph:era2/steel_pickaxe")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça o Blueprint (empty)", "triumph:player_crafted_item")
+criteria.setItem("buildcraftbuilders:snapshot",2)

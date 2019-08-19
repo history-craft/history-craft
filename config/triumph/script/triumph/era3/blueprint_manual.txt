@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<immersiveengineering:blueprint>)
+
+//Set title String
+setTitle("Manuais")
+
+//Set description String
+setDescription("Faça o Blueprint de Manuais para fazer....... advinha?")
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/root")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Blueprint (Manuais)", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("immersiveengineering:blueprint")
+setPos(32,134)

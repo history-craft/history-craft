@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "contenttweaker:certuzchamber"
+		},
+		"inventory": {
+			"model": "contenttweaker:certuzchamber",
+			"transform": "forge:default-block"
+		}
+	}
+}

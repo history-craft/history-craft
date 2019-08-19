@@ -1,0 +1,22 @@
+//This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("immersiveengineering")
+
+//Set the icon item
+setIcon("immersiveengineering:stone_device")
+
+//Set the title String
+setTitle("Combustivel Eficiente")
+
+//Set the description String
+setDescription("Construa uma Coke Oven do Immersive Engineering para criar coke coal e Creosote oil. Você vai precisar de 27 Coke bricks em um raio de 3x3x3 e Right-Click com o Engineer's Hammer para criar a estrutura")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era2/nether")
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Monte a IE Coke Oven", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IE:CokeOven")
+

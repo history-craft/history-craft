@@ -1,0 +1,3 @@
+gamestage add @p nether 
+mpa notify @p three
+summon minecraft:fireworks_rocket ~ ~ ~

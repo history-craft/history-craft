@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10045>)
+
+//Set title String
+setTitle("Nióbio - Nb")
+
+//Set description String
+setDescription("As primeiras aplicações comerciais desse elemento datam do começo do século XX. Existem poucas minas de nióbio com viabilidade econômica. O Brasil é historicamente o primeiro produtor mundial de nióbio e ferronióbio [uma liga de nióbio e ferro] e é responsável por 75% da produção mundial do elemento. É muito utilizado nas ligas metálicas, em especial na produção de aços especiais utilizados em tubos de gasodutos. Embora essas ligas contenham no máximo 0,1 % de nióbio, essa pequena porcentagem confere uma grande resistência mecânica ao aço. TALKEI?")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10045)
+setPos(124,-88)

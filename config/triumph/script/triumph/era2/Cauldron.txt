@@ -1,0 +1,13 @@
+setTitle("Caldeirão")
+
+setIcon(<minecraft:cauldron>)
+
+setDescription("Use o cauldron com agua para limpar os minerios. Procure por Molded Lead Cauldron para que o JEI lhe mostre como fazer-lo, apos pronto, basta quebrar o item para ter o Cauldron")
+
+setParent("triumph:era2/iron_pickaxe")
+setRequiresParent(true)
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Obtenha Cauldron", "minecraft:inventory_changed")
+criteria1.addItem(<minecraft:cauldron>)

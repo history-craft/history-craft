@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10069>)
+
+//Set title String
+setTitle("Tório - Th")
+
+//Set description String
+setDescription("O tório é um metal natural, ligeiramente radioativo. Quando puro, o tório é um metal branco prateado que mantém o seu brilho por diversos meses. Entretanto, em presença do ar, escurece lentamente tornando-se cinza ou, eventualmente, preto. O óxido de tório (ThO2), também chamado de 'tória', apresenta um dos pontos de ebulição mais elevados (3300 °C) de todos os óxidos. Quando aquecido no ar, o metal de tório inflama-se e queima produzindo uma luz branca brilhante. O tório extraído da Torita.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16748475)
+setCompletedTitleColor(16748475)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10069)
+setPos(124,16)

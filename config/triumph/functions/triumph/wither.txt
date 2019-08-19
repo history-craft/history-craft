@@ -1,0 +1,1 @@
+mpa notify @p wither

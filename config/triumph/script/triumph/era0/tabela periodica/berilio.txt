@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:9007>)
+
+//Set title String
+setTitle("Berílio - Be")
+
+//Set description String
+setDescription("O berílio é um elemento químico de símbolo Be, com número atômico 4 [4 prótons e 4 elétrons] e massa atômica 9 u . É um elemento alcalino-terroso, bivalente, tóxico, de coloração cinza, duro, leve, quebradiço e sólido na temperatura ambiente. Pertence ao grupo 2.É empregado para aumentar a resistência de ligas metálicas [especialmente a de cobre]. É empregado para produzir diversos instrumentos [giroscópios], dispositivos [molas de relógios] e em reatores nucleares.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(14540032)
+setCompletedTitleColor(14540032)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Berilium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2007)
+setPos(46,-166)

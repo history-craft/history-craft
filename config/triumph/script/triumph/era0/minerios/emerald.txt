@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_emerald_0>)
+
+//Set title String
+setTitle("Emerald")
+
+//Set description String
+setDescription("Esmeralda é uma variedade do mineral berilo (Be3Al2(SiO3)6), a mais nobre delas. Outras variedades de berilo são a água-marinha, a morganita, o heliodoro, a goshenita e a bixbyíta. Sua cor verde é devido à presença de quantidades mínimas de crômio e às vezes vanádio.É encontrado em biomas de montanha entre a camada 0 e 124")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Emerald", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_emerald_0")
+setPos(-412,-87)

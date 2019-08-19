@@ -1,0 +1,2 @@
+gamestage add @p fenda 
+

@@ -1,16 +1,12 @@
 {
-  "forge_marker": 1,
-  "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/mold_cauldron",
-      "particle": "contenttweaker:blocks/mold_cauldron"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
-  },
-  "variants": {
-    "normal": [{}],
-    "inventory": [{}]
-  }
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "contenttweaker:mold_block"
+		},
+		"inventory": {
+			"model": "contenttweaker:mold_block",
+			"transform": "forge:default-block"
+		}
+	}
 }

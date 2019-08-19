@@ -1,0 +1,12 @@
+setTitle("Picareta de Aço")
+
+setIcon(<tconstruct:pick_head, ore:partPickHead, meta:0, count:1, nbt:{Material:"steel"}>)
+
+setDescription("Use a Blast Furnace [Immersive Engeeniring] para transformar o Crude Iron em Steel, após isso derreta-o na smeltery")
+
+setParent("triumph:era2/CrudeIron")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("Obtenha uma cabeça de Picareta de Steel", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:pick_head, ore:partPickHead, meta:0, count:1, nbt:{Material:"steel"}>)

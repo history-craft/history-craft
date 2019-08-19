@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10071>)
+
+//Set title String
+setTitle("Estanho - Sn")
+
+//Set description String
+setDescription("É usado para produzir diversas ligas metálicas utilizadas para recobrir outros metais para os proteger da corrosão. O estanho é obtido principalmente do mineral cassiterita, onde se apresenta como um óxido. É um dos metais mais antigos conhecidos, e foi usado como um dos componentes do bronze desde a antiguidade.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(58015)
+setCompletedTitleColor(58015)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",9071) 
+setPos(358,-88)

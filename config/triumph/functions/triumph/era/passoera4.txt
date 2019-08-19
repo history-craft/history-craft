@@ -1,0 +1,3 @@
+gamestage add @p six 
+mpa notify @p six
+summon minecraft:fireworks_rocket ~ ~ ~

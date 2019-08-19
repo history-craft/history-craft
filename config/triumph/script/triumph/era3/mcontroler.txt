@@ -1,0 +1,16 @@
+
+//Set icon item
+setIcon(<modularmachinery:blockcontroller>)
+
+//Set title String
+setTitle("Criatividade de Navaronee")
+
+//Set description String
+setDescription("A Machine Controler é o centro das maquinas proprias do Modpack, note que a saida e entrada das maquinas devem seguir a dos recipes, exemplo: caso um recipe dê 6 itens, deve-se ter uma saida para 6 itens, o mesmo se aplica a energia, liquidos e etc.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/modularium")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça a Alloy Smelter (GregTech)", "triumph:player_crafted_item")
+criteria.setItem("modularmachinery:blockcontroller")

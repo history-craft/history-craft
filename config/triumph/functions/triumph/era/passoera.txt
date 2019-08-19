@@ -1,0 +1,3 @@
+gamestage add @p one
+mpa notify @p one
+summon minecraft:fireworks_rocket ~ ~ ~

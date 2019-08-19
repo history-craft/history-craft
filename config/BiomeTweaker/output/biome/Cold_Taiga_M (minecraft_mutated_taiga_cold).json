@@ -8,13 +8,11 @@
   "Height Variation": 0.4,
   "Top Block": "minecraft:grass[snowy\u003dfalse]",
   "Filler Block": "minecraft:dirt[snowy\u003dfalse,variant\u003ddirt]",
-  "Ocean Top Block": "minecraft:gravel",
-  "Ocean Filler Block": "minecraft:stone[variant\u003dstone]",
-  "Actual Filler Blocks": [
-    "minecraft:stone[variant\u003dstone]"
-  ],
-  "Grass Color": "Not set. Check in-game.",
-  "Foliage Color": "Not set. Check in-game.",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
   "Water Color": "16777215",
   "Temperature": -0.5,
   "Humidity": 0.4,
@@ -22,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "MOUNTAIN",
     "CONIFEROUS",
+    "COLD",
     "FOREST",
     "RARE",
-    "SNOWY",
-    "COLD"
+    "MOUNTAIN",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -130,8 +128,38 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "mcpecommander.mobultion.entity.entities.skeletons.EntityJokerSkeleton",
+      "Weight": 100,
+      "Min Group Count": 3,
+      "Max Group Count": 7
+    },
+    {
+      "Entity Class": "mcpecommander.mobultion.entity.entities.zombies.EntityKnightZombie",
+      "Weight": 100,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "mcpecommander.mobultion.entity.entities.zombies.EntityDoctorZombie",
+      "Weight": 50,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "mcpecommander.mobultion.entity.entities.endermen.EntityIceEnderman",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "mcpecommander.mobultion.entity.entities.endermen.EntityWanderingEnderman",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "techguns.entities.npcs.TGDummySpawn",
-      "Weight": 600,
+      "Weight": 50,
       "Min Group Count": 1,
       "Max Group Count": 3
     }

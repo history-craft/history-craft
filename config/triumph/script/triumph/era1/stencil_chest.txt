@@ -1,0 +1,18 @@
+//Set icon item
+setIcon("tconstruct:tooltables",4)
+
+//Set title String
+setTitle("Lugar certo para as coisas")
+
+//Set description String
+setDescription("'Stencil chest' serve unicamente para guardar moldes de ferramentas")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/stencil_table")
+setRequiresParent(true)
+
+setFrameType("Goal")
+
+
+criteria = addCriteria("Faça a Pattern Chest", "triumph:player_crafted_item")
+criteria.setItem("tconstruct:tooltables",4)

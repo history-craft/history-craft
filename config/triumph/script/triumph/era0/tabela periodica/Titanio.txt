@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10072>)
+
+//Set title String
+setTitle("Titânio - Ti")
+
+//Set description String
+setDescription("O titânio é um elemento químico de símbolo Ti, número atômico 22 [22 prótons e 22 elétrons] com massa atômica 47,90 u. Trata-se de um metal de transição leve, forte, cor branca metálica, lustroso e resistente à corrosão, sólido na temperatura ambiente. O titânio é muito utilizado em ligas leves e no pigmento branco.O titânio pode ser utilizado para a produção de ligas com ferro, alumínio, vanádio e molibdênio, entre outros elementos, para aumentar a resistência mecânica, utilizada na indústria aeroespacial [motores, mísseis e foguetes]. Também é utilizado para a produção de catalisadores na indústria química e petroquímica, automobilística, agrícola, médica [para a produção de implantes ortopédicos, próteses e instrumentos odontológicos], em produtos esportivos, jóias, telefones celulares, entre outros.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10072)
+setPos(98,-114)

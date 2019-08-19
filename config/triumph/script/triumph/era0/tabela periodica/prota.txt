@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<thermalfoundation:material:136>)
+
+//Set title String
+setTitle("Protactínio - Pa")
+
+//Set description String
+setDescription("Devido a sua escassez, alta radioatividade e toxicidade, não existe atualmente nenhum uso para o protactínio fora do âmbito da pesquisa científica básica. Não existe forma de obter esse material no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16748475)
+setCompletedTitleColor(16748475)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",9025)
+setPos(150,16)

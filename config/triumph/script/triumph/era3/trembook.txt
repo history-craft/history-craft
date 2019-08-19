@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<immersiverailroading:item_manual>)
+
+//Set title String
+setTitle("Transporte eficiente - Trem")
+
+//Set description String
+setDescription("Faça o Manual do Immersive Railroading para ter o template de como montar as multiblocos para fabricação de trens")
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/blueprint_manual")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Immersive Railroding Manual", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("immersiverailroading:item_manual")
+setPos(89,93)

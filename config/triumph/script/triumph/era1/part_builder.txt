@@ -1,0 +1,19 @@
+
+//Set icon item
+setIcon("tconstruct:tooltables",2)
+
+//Set title String
+setTitle("Agora é so montar")
+
+//Set description String
+setDescription("Mesa feita para criarmos as partes das ferramentas e armas")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/blank_pattern")
+setRequiresParent(true)
+
+//Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
+criteria = addCriteria("Coloque ao chão a Part Builder", "minecraft:placed_block")
+
+//Sets the required block for the criteria. This is the block that needs to be placed by the player.
+criteria.setBlock("tconstruct:tooltables",2)

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2050>)
+
+//Set title String
+setTitle("Fósforo - P")
+
+//Set description String
+setDescription("Fósforo é um não metal (apesar de existir a forma alotrópica conhecida como fósforo preto que se comporta como um semi-metal, apresentando estrutura cristalina) multivalente pertencente à série química do nitrogênio (grupo 15 ou 5 A) que se encontra na natureza combinado, formando fosfatos inorgânicos, inclusive nos seres vivos. Não é encontrado no estado nativo porque é muito reativo, oxidando-se espontaneamente em contato com o oxigênio do ar atmosférico, emitindo luz (fenômeno da fosforescência).")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(55296)
+setCompletedTitleColor(55296)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2050) 
+setPos(384,-140)

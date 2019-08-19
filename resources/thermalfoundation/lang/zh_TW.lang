@@ -1,0 +1,150 @@
+#zh_TW
+
+death.attack.basalz=%1$s ????????
+death.attack.blitz=%1$s ????????
+death.attack.blizz=%1$s ????????
+death.attack.cryotheum.player=%1$s ???? %2$s ?????????
+death.attack.cryotheum=%1$s ????
+death.attack.flux.player=%1$s ? %2$s ????
+death.attack.flux=%1$s ????????????
+death.attack.mana.player=%1$s ???? %2$s ????????????
+death.attack.mana=%1$s ???????
+death.attack.petrotheum.player=%1$s ???? %2$s ?????????
+death.attack.petrotheum=%1$s ?????
+death.attack.pyrotheum.player=%1$s ???? %2$s ???????
+death.attack.pyrotheum=%1$s ???????????
+
+fluid.aerotheum=?????
+fluid.coal=????
+fluid.cryotheum=?????
+fluid.ender=?????
+fluid.glowstone=??????
+fluid.mana=????
+fluid.petrotheum=?????
+fluid.pyrotheum=?????
+fluid.redstone=????????
+fluid.steam=??
+
+gui.thermalfoundation.lexicon.study=?? - ??
+gui.thermalfoundation.lexicon.transmute=?? - ??
+
+item.thermalfoundation.material.crystalCinnabar.name=??
+
+item.thermalfoundation.material.dustAerotheum.name=?????
+item.thermalfoundation.material.dustBasalz.name=???
+item.thermalfoundation.material.dustBlitz.name=???
+item.thermalfoundation.material.dustBlizz.name=???
+item.thermalfoundation.material.dustBronze.name=???
+item.thermalfoundation.material.dustCharcoal.name=???
+item.thermalfoundation.material.dustCoal.name=???
+item.thermalfoundation.material.dustCopper.name=??
+item.thermalfoundation.material.dustCryotheum.name=?????
+item.thermalfoundation.material.dustElectrum.name=????
+item.thermalfoundation.material.dustEnderium.name=?????
+item.thermalfoundation.material.dustGold.name=??
+item.thermalfoundation.material.dustInvar.name=???
+item.thermalfoundation.material.dustIron.name=??
+item.thermalfoundation.material.dustLead.name=??
+item.thermalfoundation.material.dustLumium.name=?????
+item.thermalfoundation.material.dustMana.name=???
+item.thermalfoundation.material.dustMithril.name=?????
+item.thermalfoundation.material.dustNickel.name=???
+item.thermalfoundation.material.dustNiter.name=??
+item.thermalfoundation.material.dustObsidian.name=????
+item.thermalfoundation.material.dustPetrotheum.name=?????
+item.thermalfoundation.material.dustPlatinum.name=???
+item.thermalfoundation.material.dustPyrotheum.name=?????
+item.thermalfoundation.material.dustSignalum.name=?????
+item.thermalfoundation.material.dustSilver.name=??
+item.thermalfoundation.material.dustSulfur.name=??
+item.thermalfoundation.material.dustTin.name=??
+
+item.thermalfoundation.material.gearBronze.name=????
+item.thermalfoundation.material.gearCopper.name=???
+item.thermalfoundation.material.gearElectrum.name=?????
+item.thermalfoundation.material.gearEnderium.name=??????
+item.thermalfoundation.material.gearGold.name=???
+item.thermalfoundation.material.gearInvar.name=????
+item.thermalfoundation.material.gearIron.name=???
+item.thermalfoundation.material.gearLead.name=???
+item.thermalfoundation.material.gearLumium.name=??????
+item.thermalfoundation.material.gearMithril.name=??????
+item.thermalfoundation.material.gearNickel.name=????
+item.thermalfoundation.material.gearPlatinum.name=????
+item.thermalfoundation.material.gearSignalum.name=??????
+item.thermalfoundation.material.gearSilver.name=???
+item.thermalfoundation.material.gearTin.name=???
+
+item.thermalfoundation.material.ingotBronze.name=???
+item.thermalfoundation.material.ingotCopper.name=??
+item.thermalfoundation.material.ingotElectrum.name=????
+item.thermalfoundation.material.ingotEnderium.name=?????
+item.thermalfoundation.material.ingotInvar.name=???
+item.thermalfoundation.material.ingotLead.name=??
+item.thermalfoundation.material.ingotLumium.name=?????
+item.thermalfoundation.material.ingotMithril.name=?????
+item.thermalfoundation.material.ingotNickel.name=???
+item.thermalfoundation.material.ingotPlatinum.name=???
+item.thermalfoundation.material.ingotSignalum.name=?????
+item.thermalfoundation.material.ingotSilver.name=??
+item.thermalfoundation.material.ingotTin.name=??
+
+item.thermalfoundation.material.nuggetBronze.name=???
+item.thermalfoundation.material.nuggetCopper.name=??
+item.thermalfoundation.material.nuggetElectrum.name=????
+item.thermalfoundation.material.nuggetEnderium.name=?????
+item.thermalfoundation.material.nuggetInvar.name=???
+item.thermalfoundation.material.nuggetIron.name=??
+item.thermalfoundation.material.nuggetLead.name=??
+item.thermalfoundation.material.nuggetLumium.name=?????
+item.thermalfoundation.material.nuggetMithril.name=?????
+item.thermalfoundation.material.nuggetNickel.name=???
+item.thermalfoundation.material.nuggetPlatinum.name=???
+item.thermalfoundation.material.nuggetSignalum.name=?????
+item.thermalfoundation.material.nuggetSilver.name=??
+item.thermalfoundation.material.nuggetTin.name=??
+
+item.thermalfoundation.material.rodBasalz.name=???
+item.thermalfoundation.material.rodBlitz.name=???
+item.thermalfoundation.material.rodBlizz.name=???
+
+item.thermalfoundation.tome.lexicon.empowered.name=????(???)
+item.thermalfoundation.tome.lexicon.name=????
+
+itemGroup.thermalfoundation.creativeTab=??????
+itemGroup.thermalfoundation.creativeTabArmor=??????|??
+itemGroup.thermalfoundation.creativeTabTools=??????|??
+
+tab.thermalfoundation.lexicon.study.0=?????????????????????
+tab.thermalfoundation.lexicon.study.1=????????????????
+tab.thermalfoundation.lexicon.transmute.0=?????????????????
+tab.thermalfoundation.lexicon.transmute.1=????????????????????
+
+tile.thermalfoundation.fluid.cryotheum.name=?????
+tile.thermalfoundation.fluid.ender.name=?????
+tile.thermalfoundation.fluid.glowstone.name=??????
+tile.thermalfoundation.fluid.mana.name=????
+tile.thermalfoundation.fluid.pyrotheum.name=?????
+tile.thermalfoundation.fluid.redstone.name=????????
+
+tile.thermalfoundation.ore.copper.name=??
+tile.thermalfoundation.ore.lead.name=??
+tile.thermalfoundation.ore.mithril.name=???
+tile.thermalfoundation.ore.nickel.name=???
+tile.thermalfoundation.ore.platinum.name=???
+tile.thermalfoundation.ore.silver.name=??
+tile.thermalfoundation.ore.tin.name=??
+
+tile.thermalfoundation.storage.bronze.name=???
+tile.thermalfoundation.storage.copper.name=??
+tile.thermalfoundation.storage.electrum.name=????
+tile.thermalfoundation.storage.enderium.name=?????
+tile.thermalfoundation.storage.invar.name=???
+tile.thermalfoundation.storage.lead.name=??
+tile.thermalfoundation.storage.lumium.name=?????
+tile.thermalfoundation.storage.mithril.name=?????
+tile.thermalfoundation.storage.nickel.name=???
+tile.thermalfoundation.storage.platinum.name=???
+tile.thermalfoundation.storage.signalum.name=?????
+tile.thermalfoundation.storage.silver.name=??
+tile.thermalfoundation.storage.tin.name=??

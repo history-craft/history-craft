@@ -1,0 +1,22 @@
+//This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("immersiveengineering")
+
+//Set the icon item
+setIcon("immersiveengineering:stone_device", 7)
+
+//Set the title String
+setTitle("Primeira[?] multibloco")
+
+//Set the description String
+setDescription("Construa uma Alloy Kiln do Immersive Engineering para criar bronze. Você vai precisar de 8 Kiln bricks em um raio de 2x2x2 e Right-Click com o Engineer's Hammer para criar a estrutura")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/bricks")
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Monte a IE Alloy Smelter", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IE:AlloySmelter")
+

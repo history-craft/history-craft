@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10074>)
+
+//Set title String
+setTitle("Tungstênio  - W")
+
+//Set description String
+setDescription("Os seus minérios mais importantes são a volframita e a scheelita. O elemento livre é notável pela sua robustez, especialmente pelo fato de possuir o mais alto ponto de fusão de todos os metais e o segundo mais alto entre todos os elementos, a seguir ao carbono. Também notável é a sua alta densidade, 19,3 vezes maior do que a da água, comparável às do urânio e ouro, e muito mais alta que a do chumbo.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10074)
+setPos(150,-62)

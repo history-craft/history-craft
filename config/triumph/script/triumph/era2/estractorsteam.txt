@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("gregtech:machine",7) 
+
+//Set title String
+setTitle("Eu preciso disso?")
+
+//Set description String
+setDescription("err, ainda não, mas é bom você saber que existe, lembre-se sempre de deixar um bloco de espaço atras das maquinas a vapor")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era2/bronzehull")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Steam Furnace", "minecraft:inventory_changed")
+setRequiresParent(true)
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("gregtech:machine",7)

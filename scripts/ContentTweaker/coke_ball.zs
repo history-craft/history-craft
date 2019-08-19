@@ -6,6 +6,6 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.IItemRightClick;
 import mods.contenttweaker.Commands;
 
-var tannin_ball = VanillaFactory.createItem("coke_ball");
+var coke_ball = VanillaFactory.createItem("coke_ball");
 
-tannin_ball.register();
+coke_ball.register();

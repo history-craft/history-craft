@@ -1,0 +1,37 @@
+{
+    "machine": "hull_assembler",
+    "registryName": "machine_casing_12",
+    "recipeTime": 1000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "water",
+            "amount": 640
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "steam",
+            "amount": 3840
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_2@16237",
+            "amount": 4
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@12184",
+            "amount": 6
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:machine_casing@12",
+            "amount": 1
+        }
+    ]
+}

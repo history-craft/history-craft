@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2058>)
+
+//Set title String
+setTitle("Rubídio - Rb")
+
+//Set description String
+setDescription("O rubídio é um elemento químico de símbolo Rb de número atômico 37 [37 prótons e 37 elétrons]. O rubídio é um elemento metálico leve, brancoprateado e do grupo dos metais alcalinos. A massa atômica é 85,4678 u. elemento é altamente reativo, com propriedades similares a outros elementos do grupo 1A, bem como uma oxidação na atmosfera terrestre muito rápida. O rubídio tem um isótopo estável,o 85Rb. O isótopo 87Rb, que compõe quase 28% da ocorrência natural do rubídio, é ligeiramente radioativo, com uma meia-vida de 49 bilhões de anos — mais de três vezes maior que a idade estimada do universo.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16756224)
+setCompletedTitleColor(16756224)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Rubidium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2058)
+setPos(20,-88)

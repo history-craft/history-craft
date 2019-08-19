@@ -1,0 +1,31 @@
+{
+    "machine": "automatepbf",
+    "registryName": "crude_charcoal",
+    "recipeTime": 500,
+    "requirements": [
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "minecraft:coal@1",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:meta_item_1@110",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "input",
+            "item": "gregtech:meta_item_1@2963",
+            "amount": 2
+        },
+		{
+            "type": "item",
+            "io-type": "output",
+            "item": "gregtech:meta_item_1@9512",
+            "amount": 6
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+//Set the icon item
+setIcon(<gregtech:meta_item_1:10152>)
+
+//Set the title String
+setTitle("Borracha")
+
+//Set the description String
+setDescription("Use a Chemical Reactor para produzir borracha na sua forma liquida, use a Fluid Solidifier para transformar em barras ou placas")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/chemicalreactor")
+setRequiresParent(true)
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Rubber Bar", "minecraft:inventory_changed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setItem("gregtech:meta_item_1",10152)

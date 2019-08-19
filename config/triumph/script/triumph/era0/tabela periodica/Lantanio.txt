@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10034>)
+
+//Set title String
+setTitle("Lãntanio - La")
+
+//Set description String
+setDescription("O lantânio é um elemento metálico branco prateado que pertence ao grupo 3 da tabela periódica e é considerado frequentemente como sendo um lantanídio. Encontrado em alguns minerais, geralmente em combinação com cério e outros elementos terras raras. O lantânio é maleável, dúctil, e mole bastante para ser cortado com uma faca. É um dos mais reativos entre os elementos terras raras. O metal reage diretamente como os elementos carbono, nitrogênio, boro, selênio, silício, fósforo, enxofre, e com halogênios. Oxida rapidamente quanto exposto ao ar. A água fria ataca lentamente o lantânio, enquanto a água quente ataca muito mais rapidamente.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16749359)
+setCompletedTitleColor(16749359)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10034)
+setPos(98,-10)

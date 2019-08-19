@@ -5,9 +5,9 @@
       "texture": "contenttweaker:blocks/meteor_chunk",
       "particle": "contenttweaker:blocks/meteor_chunk"
     },
-    "model": "base:storage",
+    "model": "contenttweaker:meteor_chunk",
     "uvlock": true,
-    "transform": "forge:default-block"
+    "transform": "contenttweaker:meteor_chunk"
   },
   "variants": {
     "normal": [{}],

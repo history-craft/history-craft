@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2054>)
+
+//Set title String
+setTitle("Potássio - K")
+
+//Set description String
+setDescription("O potássio é um elemento químico de símbolo K, número atômico 19 [19 prótons e 19 elétrons], metal alcalino, de massa atómica 39 u, coloração branco prateado, abundante na natureza, encontrado principalmente nas águas salgadas e outros minerais. Oxida-se rapidamente com o oxigênio do ar, é muito reativo especialmente com a água e se parece quimicamente com o sódio. É um elemento químico essencial para o homem, encontrado em muitas hortaliças, e essencial para o crescimento das plantas. Empregado em células fotoelétricas. Foi descoberto por Humphry Davy, em 1807, a partir da eletrólise do hidróxido de potássio [KOH].")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16756224)
+setCompletedTitleColor(16756224)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Sodium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2054)
+setPos(20,-114)

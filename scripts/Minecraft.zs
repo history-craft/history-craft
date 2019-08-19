@@ -1,23 +1,98 @@
-val hempBow = <tconstruct:bow_string>.withTag({Material: "string"});
-val thin = <ore:thinWood>;
-val toolSaw = <ore:craftingToolSaw>;
-val cq = <ore:cordageQuality>;
-val leatherc = <betterwithmods:material:31>;
-val leathert = <betterwithmods:material:32>;
-
-recipes.replaceAllOccurences(<minecraft:iron_ingot>, <gregtech:meta_item_1:10197>);
-recipes.replaceAllOccurences(<ore:plateIron>, <gregtech:meta_item_1:12197>);
-recipes.replaceAllOccurences(<ore:stickIron>, <gregtech:meta_item_1:14197>);
-recipes.replaceAllOccurences(<ore:nuggetIron>, <gregtech:meta_item_1:9197>);
-recipes.replaceAllOccurences(<ore:blockIron>, <gregtech:compressed_8:15>); 
-recipes.replaceAllOccurences(<minecraft:anvil>, <betterwithmods:steel_anvil>);
-
-recipes.remove(<immersiveengineering:treated_wood>);
-
 var shardIron = <tconstruct:shard>.withTag({Material: "iron"});
-recipes.remove(<minecraft:skull:1>);
+//recipes.removeShaped(<gregtech:meta_item_1:2105>, [<minecraft:clay>]);
+recipes.removeShapeless(<gregtech:meta_item_1:2105>, [<minecraft:clay>]);
+recipes.remove(<charcoal_pit:log_pile>);
+recipes.addShapeless(<charcoal_pit:log_pile>,[<ore:logWood>,<ore:logWood>,<ore:logWood>,<ore:logWood>]);
 
-recipes.remove(<minecraft:hopper>);
+recipes.remove(<minecraft:iron_door>);
+recipes.addShaped (<minecraft:iron_door>*3,
+ [[<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>,null],
+  [<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>,<gregtech:meta_tool:6>], 
+  [<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>, null]]);
+
+<minecraft:iron_ingot>.displayName = "Sweet Iron Ingot"; 
+
+<enderio:block_dark_steel_anvil>.displayName = "Steel Anvil";
+<enderio:block_dark_steel_anvil:1>.displayName = "Slightly Damaged Steel Anvil";
+<enderio:block_dark_steel_anvil:2>.displayName = "Very Damaged Steel Anvil";
+
+<openblocks:auto_anvil>.displayName = "BlackSteel Anvil (Automatic)"; 
+<thermalfoundation:material:656>.displayName = "Manyullyn Drill Head";
+
+recipes.remove(<ceramics:unfired_clay:4>);
+recipes.addShapeless(<ceramics:unfired_clay:4>*2,[<minecraft:clay_ball>,<gregtech:meta_item_1:2097>]);
+recipes.addShapeless(<ceramics:unfired_clay:4>,[<minecraft:clay_ball>,<gregtech:meta_item_1:3097>]);
+recipes.addShapeless(<contenttweaker:unporcelain>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<ceramics:unfired_clay:4>]); 
+
+recipes.replaceAllOccurences(<gtadditions:ga_meta_item:33>, <gtadditions:ga_meta_item:197>); 
+recipes.replaceAllOccurences(<buildcraftfactory:tank>, <gregtech:machine:812>);
+
+  recipes.addShaped (<contenttweaker:unporcelain>*8,
+ [[<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>],
+  [<ceramics:unfired_clay:4>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<ceramics:unfired_clay:4>],
+  [<ceramics:unfired_clay:4>,<ceramics:unfired_clay:4>, <ceramics:unfired_clay:4>]]);
+  
+  recipes.addShapeless(<contenttweaker:netherball>,[<minecraft:clay_ball>,<gregtech:meta_item_1:2333>]);
+  
+    recipes.addShaped (<contenttweaker:unfnetherb>*8,
+ [[<contenttweaker:netherball>,<contenttweaker:netherball>,<contenttweaker:netherball>],
+  [<contenttweaker:netherball>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball>],
+  [<contenttweaker:netherball>,<contenttweaker:netherball>, <contenttweaker:netherball>]]);
+  
+  recipes.addShapeless(<contenttweaker:unfnetherb>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball>]); 
+  
+    recipes.addShapeless(<contenttweaker:netherball_gloomy>,[<minecraft:clay_ball>,<contenttweaker:netherdust_gloomy>]);
+  
+    recipes.addShaped (<contenttweaker:unfnetherb_gloomy>*8,
+ [[<contenttweaker:netherball_gloomy>,<contenttweaker:netherball_gloomy>,<contenttweaker:netherball_gloomy>],
+  [<contenttweaker:netherball_gloomy>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_gloomy>],
+  [<contenttweaker:netherball_gloomy>,<contenttweaker:netherball_gloomy>, <contenttweaker:netherball_gloomy>]]);
+      recipes.addShapeless(<contenttweaker:unfnetherb_gloomy>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_gloomy>]);
+  
+      recipes.addShapeless(<contenttweaker:netherball_icy>,[<minecraft:clay_ball>,<contenttweaker:netherdust_icy>]);
+  
+    recipes.addShaped (<contenttweaker:unfnetherb_icy>*8,
+ [[<contenttweaker:netherball_icy>,<contenttweaker:netherball_icy>,<contenttweaker:netherball_icy>],
+  [<contenttweaker:netherball_icy>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_icy>],
+  [<contenttweaker:netherball_icy>,<contenttweaker:netherball_icy>, <contenttweaker:netherball_icy>]]);
+        recipes.addShapeless(<contenttweaker:unfnetherb_icy>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_icy>]);
+		
+    recipes.addShapeless(<contenttweaker:netherball_lively>,[<minecraft:clay_ball>,<contenttweaker:netherdust_lively>]);
+  
+    recipes.addShaped (<contenttweaker:unfnetherb_lively>*8,
+ [[<contenttweaker:netherball_lively>,<contenttweaker:netherball_lively>,<contenttweaker:netherball_lively>],
+  [<contenttweaker:netherball_lively>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_lively>],
+  [<contenttweaker:netherball_lively>,<contenttweaker:netherball_lively>, <contenttweaker:netherball_lively>]]);
+      recipes.addShapeless(<contenttweaker:unfnetherb_lively>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_lively>]);
+	  
+    recipes.addShapeless(<contenttweaker:netherball_fiery>,[<minecraft:clay_ball>,<contenttweaker:netherdust_fiery>]);
+  
+    recipes.addShaped (<contenttweaker:unfnetherb_fiery>*8,
+ [[<contenttweaker:netherball_fiery>,<contenttweaker:netherball_fiery>,<contenttweaker:netherball_fiery>],
+  [<contenttweaker:netherball_fiery>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_fiery>],
+  [<contenttweaker:netherball_fiery>,<contenttweaker:netherball_fiery>, <contenttweaker:netherball_fiery>]]);
+      recipes.addShapeless(<contenttweaker:unfnetherb_fiery>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:netherball_fiery>]);
+  
+    recipes.addShapeless(<contenttweaker:coke_ball>,[<minecraft:clay_ball>,<biomesoplenty:ash>]);
+  
+    recipes.addShaped (<contenttweaker:coke_brick_u>*8,
+ [[<contenttweaker:coke_ball>,<contenttweaker:coke_ball>,<contenttweaker:coke_ball>],
+  [<contenttweaker:coke_ball>,<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:coke_ball>],
+  [<contenttweaker:coke_ball>,<contenttweaker:coke_ball>, <contenttweaker:coke_ball>]]);
+  
+    recipes.addShapeless(<contenttweaker:coke_brick_u>,[<gregtech:meta_item_2:32012>.transformReplace(<gregtech:meta_item_2:32012>),<contenttweaker:coke_ball>]);
+
+recipes.remove(<thermalfoundation:material:656>);
+  recipes.addShaped (<thermalfoundation:material:656>,
+ [[<tconstruct:ingots:2>,<tconstruct:ingots:2>,null],
+  [<tconstruct:metal:2>,<tconstruct:metal:2>,<tconstruct:ingots:2>],
+  [<tconstruct:ingots:2>,<tconstruct:ingots:2>, null]]);
+
+recipes.remove(<buildcraftbuilders:quarry>);
+  recipes.addShaped (<buildcraftbuilders:quarry>,
+ [[<gregtech:meta_item_1:12184>,<ore:circuitGood>,<gregtech:meta_item_1:12184>],
+  [<gregtech:meta_item_1:12184>,<gregtech:machine_casing:2>,<gregtech:meta_item_1:12184>],
+  [null,<thermalfoundation:material:656>, null]]);
 
 recipes.remove(<minecraft:compass>);
   recipes.addShaped (<minecraft:compass>,
@@ -25,201 +100,148 @@ recipes.remove(<minecraft:compass>);
   [<gtadditions:ga_meta_item:197>,shardIron,<gtadditions:ga_meta_item:197>],
   [null,<gtadditions:ga_meta_item:197>, null]]);
 
-
-  recipes.addShaped (<astikoor:wheel>,
- [[<minecraft:stick>,<minecraft:stick>,<minecraft:stick>],
-  [<minecraft:stick>,<betterwithmods:material>,<minecraft:stick>],
-  [<minecraft:stick>,<minecraft:stick>, <minecraft:stick>]]);
-
-recipes.remove(<minecraft:iron_block>);
-
-recipes.remove(<minecraft:gunpowder>);
-recipes.addShapeless(<minecraft:gunpowder>*7,[<ore:dustCharcoal>,<ore:dustCharcoal>,<ore:dustSulfur>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>,<ore:dustSaltpeter>]);
-
-recipes.remove(<minecraft:chest>);
-recipes.addShapeless(<minecraft:chest>,[<ore:chest>]);
-recipes.remove(<minecraft:end_stone>);
-
-<gregtech:compressed_13:5>.displayName="Compressed Gypsum Dust"; 
-
-recipes.addShapeless(<contenttweaker:bonen>,[<primal:cinis_clump>,<minecraft:bone>]);
-
-recipes.replaceAllOccurences(<minecraft:diamond_hoe>, <gregtech:meta_item_2:4197>, <astikoor:plowcart>);
-
-recipes.replaceAllOccurences(<gregtech:meta_item_1:12197>, <ore:plateIronAll>, <minecraft:iron_helmet>);
-recipes.replaceAllOccurences(<gregtech:meta_item_1:12197>, <ore:plateIronAll>, <minecraft:iron_chestplate>);
-recipes.replaceAllOccurences(<gregtech:meta_item_1:12197>, <ore:plateIronAll>, <minecraft:iron_leggings>);
-recipes.replaceAllOccurences(<gregtech:meta_item_1:12197>, <ore:plateIronAll>, <minecraft:iron_boots>);
-
-recipes.remove(<minecraft:golden_helmet>);
-  recipes.addShaped (<minecraft:golden_helmet>,
- [[<gregtech:meta_item_1:12035>,<gregtech:meta_item_1:12035>,<gregtech:meta_item_1:12035>],
-  [<gregtech:meta_item_1:12095>,<minecraft:leather_helmet>,<gregtech:meta_item_1:12095>],
-  [null,null, null]]);
-  
-recipes.remove(<minecraft:golden_chestplate>);
-  recipes.addShaped (<minecraft:golden_chestplate>,
- [[<gregtech:meta_item_1:12035>,null,<gregtech:meta_item_1:12035>],
-  [leatherc,<gregtech:meta_item_1:12095>,leatherc],
-  [leatherc,leatherc, leatherc]]);
-  
-  recipes.remove(<minecraft:golden_leggings>);
-  recipes.addShaped (<minecraft:golden_chestplate>,
- [[leatherc,leatherc,leatherc],
-  [<gregtech:meta_item_1:12095>,null,<gregtech:meta_item_1:12095>],
-  [leatherc,null, leatherc]]);
-  
-recipes.remove(<minecraft:golden_boots>);
-  recipes.addShaped (<minecraft:golden_boots>,
- [[leatherc,null,leatherc],
-  [<gregtech:meta_item_1:12095>,null,<gregtech:meta_item_1:12095>],
-  [null,null, null]]);
-  
-recipes.remove(<minecraft:diamond_helmet>);
-  recipes.addShaped (<minecraft:diamond_helmet>,
- [[<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>],
-  [<gregtech:meta_item_1:12197>,<minecraft:leather_helmet>,<gregtech:meta_item_1:12197>],
-  [<minecraft:gold_nugget>,null, <minecraft:gold_nugget>]]);
-  
-recipes.remove(<minecraft:diamond_chestplate>);
-  recipes.addShaped (<minecraft:diamond_chestplate>,
- [[<gregtech:meta_item_1:12197>,null,<gregtech:meta_item_1:12197>],
-  [<betterwithmods:material:47>,<minecraft:diamond>,<betterwithmods:material:47>],
-  [<betterwithmods:material:47>,<betterwithmods:material:47>, <betterwithmods:material:47>]]);
-  
-  recipes.remove(<minecraft:diamond_leggings>);
-  recipes.addShaped (<minecraft:diamond_chestplate>,
- [[<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>,<gregtech:meta_item_1:12197>],
-  [<gregtech:meta_item_1:12095>,null,<gregtech:meta_item_1:12197>],
-  [<gregtech:meta_item_1:12197>,null, <gregtech:meta_item_1:12197>]]);
-  
-recipes.remove(<minecraft:diamond_boots>);
-  recipes.addShaped (<minecraft:diamond_boots>,
- [[leatherc,null,leatherc],
-  [<gregtech:meta_item_1:12197>,null,<gregtech:meta_item_1:12197>],
-  [null,null, null]]);
-
-//Recipes removes
-recipes.remove(<minecraft:dye:15>);
-recipes.remove(<minecraft:stick>);
-recipes.remove(<minecraft:brick>);
-recipes.remove(<minecraft:coal>);
-recipes.remove(<minecraft:netherbrick>);
-recipes.remove(<minecraft:torch>);
-recipes.remove(<minecraft:crafting_table>);
-recipes.remove(<minecraft:lead>);
-recipes.remove(<minecraft:stone:2>);
-recipes.remove(<minecraft:stone:6>);
-recipes.remove(<minecraft:stone:4>);
-recipes.remove(<minecraft:trapdoor>);
-recipes.remove(<weirdinggadget:weirding_gadget>);
-recipes.remove(<minecraft:saddle>);
-recipes.remove(<minecraft:wooden_button>);
-recipes.remove(<minecraft:glass_bottle>);
-recipes.remove(<minecraft:leather>);
-recipes.remove(<minecraft:leather_helmet>);
-recipes.remove(<minecraft:leather_chestplate>);
-recipes.remove(<minecraft:leather_leggings>);
-recipes.remove(<minecraft:leather_boots>);
-recipes.remove(<betterwithaddons:ink_and_quill>);
-recipes.remove(<minecraft:map>);
-recipes.remove(<minecraft:bucket>);
-recipes.remove(<minecraft:clay_ball>);
-recipes.remove(<minecraft:wooden_pressure_plate>);
-recipes.remove(<minecraft:gold_ingot>);
 recipes.remove(<minecraft:hopper>);
+  recipes.addShaped (<minecraft:hopper>,
+ [[<gregtech:meta_item_1:12197>,<gregtech:meta_tool:8>,<gregtech:meta_item_1:12197>],
+  [<gregtech:meta_item_1:12197>,<ore:chest>,<gregtech:meta_item_1:12197>],
+  [null,<gregtech:meta_item_1:12197>, null]]);
+  
+    recipes.remove(<gregtech:machine:1>);
+recipes.addShapeless(<gregtech:machine:1>,[<gregtech:machine_casing:11>,<minecraft:furnace>]);
+  
+  recipes.remove(<minecraft:chest>);
+recipes.addShapeless(<minecraft:chest>,[<ore:chest>]);
+recipes.addShapeless(<tconstruct:tooltables>,[<minecraft:crafting_table>]);
+recipes.addShapeless(<extrautils2:minichest>*4,[<ore:chest>,<gregtech:meta_tool:5>]);
 
-//Reciepes add
-recipes.addShapeless(<minecraft:clay_ball>, [<ceramics:unfired_clay:8>,<ceramics:unfired_clay:8>]);
-recipes.addShapeless(<minecraft:map>, [<betterwithaddons:ink_and_quill>,<primal:plant_papyrus>]);
-recipes.addShapeless(<minecraft:wooden_pressure_plate>, [thin,thin]);
-recipes.addShapeless(<minecraft:stained_hardened_clay>, [<minecraft:hardened_clay>,<ore:dyeWhite>]);
+//DRUNS
+recipes.remove(<minecraft:gold_ingot>); 
+recipes.remove(<weirdinggadget:weirding_gadget>);
+  recipes.addShaped (<weirdinggadget:weirding_gadget>,
+ [[<gtadditions:ga_meta_item:2095>,<gregtech:meta_item_1:14095>,<gtadditions:ga_meta_item:2095>],
+  [<gregtech:meta_item_1:12095>,<gregtech:meta_item_1:12095>,<gregtech:meta_item_1:12095>],
+  [<gregtech:meta_item_1:12095>,<gregtech:meta_item_1:12095>,<gregtech:meta_item_1:12095>]]); 
 
-recipes.addShaped (<minecraft:leather_helmet>,
- [[cq,leatherc,cq],
-  [leatherc,null,leatherc],
-  [null,null, null]]);
+recipes.remove(<extrautils2:drum>);
+  recipes.addShaped (<extrautils2:drum>,
+ [[<gtadditions:ga_meta_item:94>,<gregtech:meta_item_1:12094>,<gtadditions:ga_meta_item:94>],
+  [<gtadditions:ga_meta_item:94>,<gregtech:meta_tool:6>,<gtadditions:ga_meta_item:94>],
+  [<gtadditions:ga_meta_item:94>,<gregtech:meta_item_1:12094>, <gtadditions:ga_meta_item:94>]]); 
+  <extrautils2:drum>.addTooltip("16000mb");
+  recipes.remove(<vehicle:fuel_drum>);
+  recipes.addShaped (<vehicle:fuel_drum>,
+ [[<gtadditions:ga_meta_item:197>,<gregtech:meta_item_1:12197>,<gtadditions:ga_meta_item:197>],
+  [<gtadditions:ga_meta_item:197>,<gregtech:meta_tool:6>,<gtadditions:ga_meta_item:197>],
+  [<gtadditions:ga_meta_item:197>,<gregtech:meta_item_1:12197>, <gtadditions:ga_meta_item:197>]]);
+  <vehicle:fuel_drum>.displayName = "Wrought Iron Drum";
+  <vehicle:fuel_drum>.addTooltip("50000mb");
   
-  recipes.addShaped (<minecraft:leather_leggings>,
- [[cq,leatherc,cq],
-  [leatherc,null,leatherc],
-  [leatherc,null, leatherc]]);
+  recipes.remove(<industrialrenewal:barrel_item>);
+  recipes.addShaped (<industrialrenewal:barrel_item>,
+ [[<gtadditions:ga_meta_item:184>,<gregtech:meta_item_1:12184>,<gtadditions:ga_meta_item:184>],
+  [<gtadditions:ga_meta_item:184>,<gregtech:meta_tool:6>,<gtadditions:ga_meta_item:184>],
+  [<gtadditions:ga_meta_item:184>,<gregtech:meta_item_1:12184>, <gtadditions:ga_meta_item:184>]]);
+  <industrialrenewal:barrel_item>.displayName = "Steel Drum";
+  <industrialrenewal:barrel_item>.addTooltip("64000mb");
   
-    recipes.addShaped (<minecraft:leather_boots>,
- [[cq,null,cq],
-  [leatherc,null,leatherc],
-  [leatherc,null, leatherc]]);
-  
-      recipes.addShaped (<minecraft:leather_chestplate>,
- [[leatherc,null,leatherc],
-  [cq,leatherc,cq],
-  [leatherc,leatherc, leatherc]]);
-  ############
-  recipes.addShaped (<betterwithmods:leather_tanned_helmet>,
- [[cq,leathert,cq],
-  [leathert,null,leathert],
-  [null,null, null]]);
-  
-  recipes.addShaped (<betterwithmods:leather_tanned_pants>,
- [[cq,leathert,cq],
-  [leathert,null,leathert],
-  [leathert,null, leathert]]);
-  
-    recipes.addShaped (<betterwithmods:leather_tanned_boots>,
- [[cq,null,cq],
-  [leathert,null,leathert],
-  [leathert,null, leathert]]);
-  
-      recipes.addShaped (<betterwithmods:leather_tanned_chest>,
- [[leathert,null,leathert],
-  [cq,leathert,cq],
-  [leathert,leathert, leathert]]);
-  
-  val spirit = <minecraft:spawn_egg>.withTag({EntityTag: {id: "emberroot:rootsonespriteboss"}});
-  
-  recipes.addShapeless(spirit, [<twilightforest:castle_rune_brick:3>, <twilightforest:castle_rune_brick:3>]);
+  recipes.remove(<vehicle:industrial_fuel_drum>);
+  recipes.addShaped (<vehicle:industrial_fuel_drum>,
+ [[<gtadditions:ga_meta_item:1>,<gregtech:meta_item_1:12001>,<gtadditions:ga_meta_item:1>],
+  [<gtadditions:ga_meta_item:1>,<gregtech:meta_tool:6>,<gtadditions:ga_meta_item:1>],
+  [<gtadditions:ga_meta_item:1>,<gregtech:meta_item_1:12001>, <gtadditions:ga_meta_item:1>]]);
+  <vehicle:industrial_fuel_drum>.displayName = "Aluminium Drum";
+  <vehicle:industrial_fuel_drum>.addTooltip("75000mb");
 
-recipes.addShapeless(<minecraft:torch>*2, [<minecraft:torch>, <primal:torch_wood>]);
-recipes.addShapeless(<minecraft:lead>, [<ore:cordageGeneral>, hempBow]);
-recipes.addShapeless(<minecraft:wooden_button>, [<ore:plankWood>]);
-recipes.addShaped (<minecraft:trapdoor>,
- [[thin,null,thin],
-  [thin,toolSaw,thin ],
-  [null,<primal:copper_strand>, null]]);
+  recipes.remove(<immersiveengineering:tool>);
+  recipes.addShaped (<immersiveengineering:tool>,
+ [[null,<gregtech:meta_item_1:10018>,<minecraft:string>],
+  [null,<minecraft:stick>,<gregtech:meta_item_1:10018>],
+  [<minecraft:stick>,null, null]]);
   
-  recipes.addShaped (<minecraft:glass_bottle>,
- [[null,<minecraft:wooden_button>,null],
-  [null,<betterwithaddons:decomat:3>,null ],
-  [<betterwithaddons:decomat:3>,<betterwithaddons:decomat:3>, <betterwithaddons:decomat:3>]]);
+  // Vanilla Material
   
-recipes.addShaped (<weirdinggadget:weirding_gadget>,
- [[<gregtech:meta_item_1:10018>,<primal:copper_strand>,<gregtech:meta_item_1:10018>],
-  [<gregtech:meta_item_1:12018>,<gregtech:meta_item_1:12018>,<gregtech:meta_item_1:12018>],
-  [<gregtech:meta_item_1:12018>,<gregtech:meta_item_1:12018>,<gregtech:meta_item_1:12018>]]); 
+    recipes.remove(<minecraft:iron_bars>);
+  recipes.addShaped (<minecraft:iron_bars>*8,
+ [[null,<gregtech:meta_tool:8>,null],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>, <gregtech:meta_item_1:14197>]]);
   
-  recipes.addShaped (<minecraft:saddle>,
- [[null,<primal:copper_strand>,null],
-  [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>],
-  [<primal:copper_strand>,<minecraft:leather>,<primal:copper_strand>]]);
+  recipes.addShaped (<minecraft:iron_bars>*8,
+ [[null,<gregtech:meta_tool:29>,null],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>, <gregtech:meta_item_1:14197>]]);
   
-  <minecraft:cauldron>.displayName = "Lead Cauldron"; 
-
-
-/*/Furnace removes
-furnace.remove(<minecraft:iron_ingot>);
-furnace.remove(<gregtech:meta_item_1:10018>);
-furnace.remove(<gregtech:meta_item_1:10184>);
-furnace.remove(<gregtech:meta_item_1:10035>);
-furnace.remove(<gregtech:meta_item_1:9001>);
-furnace.remove(<gregtech:meta_item_1:10062>);
-furnace.remove(<minecraft:gold_ingot>);
-furnace.remove(<gregtech:meta_item_1:10071>);
-furnace.remove(<draconicevolution:draconium_ingot>);
-furnace.remove(<minecraft:coal>);
-furnace.remove(<minecraft:coal:1>);
-furnace.remove(<minecraft:netherbrick>);
-furnace.remove(<minecraft:bread>);*/
-
-//Furnace add
-furnace.addRecipe(<minecraft:brick>,<betterwithmods:unfired_pottery:4>);
-furnace.addRecipe(<minecraft:netherbrick>,<betterwithmods:unfired_pottery:5>);
+  recipes.addShaped (<minecraft:iron_bars>*8,
+ [[null,<gregtech:meta_tool:30>,null],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>, <gregtech:meta_item_1:14197>]]);
+  
+  recipes.addShaped (<minecraft:iron_bars>*8,
+ [[null,<gregtech:meta_tool:31>,null],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>],
+  [<gregtech:meta_item_1:14197>,<gregtech:meta_item_1:14197>, <gregtech:meta_item_1:14197>]]);
+  
+    recipes.remove(<minecraft:bucket>);
+  recipes.addShaped (<minecraft:bucket>,
+ [[null,null,null],
+  [<gtadditions:ga_meta_item:197>,<gregtech:meta_tool:6>,<gtadditions:ga_meta_item:197>],
+  [null,<gregtech:meta_item_1:12197>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>,
+ [[<minecraft:emerald>,<minecraft:gold_ingot>,<minecraft:emerald>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>*2,
+ [[<ore:gemRuby>,<minecraft:gold_ingot>,<ore:gemRuby>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>*2,
+ [[<gregtech:meta_item_1:8243>,<minecraft:gold_ingot>,<gregtech:meta_item_1:8243>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>*2,
+ [[<ore:gemSapphire>,<minecraft:gold_ingot>,<ore:gemSapphire>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],  
+  [null,<minecraft:gold_ingot>, null]]);
+ 
+    recipes.addShaped (<minecraft:totem_of_undying>*3,
+ [[<minecraft:diamond>,<minecraft:gold_ingot>,<minecraft:diamond>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+      recipes.addShaped (<minecraft:totem_of_undying>*3,
+ [[<gregtech:meta_item_1:8117>,<minecraft:gold_ingot>,<gregtech:meta_item_1:8117>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>*3,
+ [[<minecraft:ender_pearl>,<minecraft:gold_ingot>,<minecraft:ender_pearl>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+    recipes.addShaped (<minecraft:totem_of_undying>*4,
+ [[<minecraft:ender_eye>,<minecraft:gold_ingot>,<minecraft:ender_eye>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+      
+   recipes.addShaped (<minecraft:totem_of_undying>*3,
+ [[<biomesoplenty:gem>,<minecraft:gold_ingot>,<biomesoplenty:gem>],
+  [<minecraft:gold_ingot>,<minecraft:gold_ingot>,<minecraft:gold_ingot>],
+  [null,<minecraft:gold_ingot>, null]]);
+  
+     recipes.remove(<industrialrenewal:small_wind_blade>); 
+     recipes.addShaped (<industrialrenewal:small_wind_blade>,
+ [[null,<gregtech:meta_item_2:15183>,null],
+  [<gregtech:meta_item_2:15183>,<gregtech:meta_item_1:18184>,<gregtech:meta_item_2:15183>],
+  [null,<gregtech:meta_item_2:15183>, null]]);
+  
+       recipes.remove(<industrialrenewal:small_wind_turbine>); 
+     recipes.addShaped (<industrialrenewal:small_wind_turbine>,
+ [[<gregtech:cable:7018>,<gregtech:meta_item_1:12001>,<gregtech:cable:7018>],
+  [<gregtech:meta_item_1:12001>,<gregtech:machine:1001>,<gregtech:meta_item_1:12001>],
+  [<gregtech:cable:7018>,<gregtech:meta_item_1:12001>, <gregtech:cable:7018>]]);
+  
+recipes.remove(<minecraft:hopper>);

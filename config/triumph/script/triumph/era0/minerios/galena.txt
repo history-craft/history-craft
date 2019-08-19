@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<thermalfoundation:ore:3>)
+
+//Set title String
+setTitle("Galena")
+
+//Set description String
+setDescription("Galena é um mineral composto de sulfeto de chumbo (II), e o mais importante dos minérios do chumbo e praticamente o único. Cristaliza no sistema cúbico, quase sempre em octaedros. Tem cor de chumbo, com um brilho metálico intenso e densidade 7,5. É geralmente encontrada em companhia de quartzo, esfalerita e fluorita. Serve para extração também de prata, pois geralmente contém este metal. Fórmula química: PbS. A galena é um semicondutor e foi utilizado na confecção de diodos detectores antes da popularização do uso de dispositívos de germânio ou silício. É bastante conhecida entre os aficionados em eletrônica por propiciar a confecção de um rudimentar receptor de rádio que não utiliza qualquer tipo de fonte de energia externa para funcionar, o rádio de galena. É encontrado entre a camada 5 e 25")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("thermalfoundation:ore",3)
+setPos(-281,-87)
