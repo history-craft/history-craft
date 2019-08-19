@@ -1,1 +1,0 @@
-recipes.remove(<thaumcraft:plate:1>);

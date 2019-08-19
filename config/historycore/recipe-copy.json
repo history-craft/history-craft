@@ -1,9 +1,0 @@
-{
-  "crusher": {
-    "removedByProduct": [
-      "dustAluminium",
-      "dustUranium",
-      "dustCobalt"
-    ]
-  }
-}

@@ -1,6 +1,0 @@
-
-{
-  "Name": "mobultion:doctor_zombie",
-  "Registry ID": "mobultion:doctor_zombie",
-  "Class": "mcpecommander.mobultion.entity.entities.zombies.EntityDoctorZombie"
-}

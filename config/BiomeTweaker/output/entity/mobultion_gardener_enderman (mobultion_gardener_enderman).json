@@ -1,6 +1,0 @@
-
-{
-  "Name": "mobultion:gardener_enderman",
-  "Registry ID": "mobultion:gardener_enderman",
-  "Class": "mcpecommander.mobultion.entity.entities.endermen.EntityGardenerEnderman"
-}

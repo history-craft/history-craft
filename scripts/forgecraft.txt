@@ -1,4 +1,0 @@
-#mods.forgecraft.NBTCrucible.removeAll();
-#mods.forgecraft.NBTCrucible.removeRecipe("cleanIron1");
-#mods.forgecraft.NBTCrucible.addRecipe(<minecraft:dirt>, <ore:oreIron>, <minecraft:dirt>, <minecraft:dirt>, null, <minecraft:dirt>, <minecraft:diamond>, 100, 100, 100, "test");
-#mods.forgecraft.NBTCrucible.addRecipe(<minecraft:dirt>, <ore:oreIron>, <minecraft:dirt>, <minecraft:dirt>, null, <minecraft:dirt>, <minecraft:diamond>, 100, 100, 100, "oreClusterM");

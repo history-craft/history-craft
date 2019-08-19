@@ -1,1 +1,0 @@
-mods.immersiveengineering.AlloySmelter.addRecipe(<gregtech:meta_item_1:10516>, <gregtech:meta_item_1:10237>, <minecraft:glowstone_dust>, 2000);

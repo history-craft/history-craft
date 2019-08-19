@@ -1,3 +1,0 @@
-gamestage add @p mapping
-mpa notify @p mapping
-summon minecraft:fireworks_rocket ~ ~ ~
