@@ -1,0 +1,21 @@
+//This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("immersiveengineering")
+
+//Set the icon item
+setIcon(<immersiveengineering:metal_multiblock:10>)
+
+//Set the title String
+setTitle("Inimigo do Greenpeace")
+
+//Set the description String
+setDescription("Gere 512FE/t com esse motor a diesel")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/diesel")
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Monte a IE Diesel Generator", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IE:DieselGenerator")

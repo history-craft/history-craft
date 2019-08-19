@@ -1,0 +1,17 @@
+
+//Set icon item
+setIcon(<thaumcraft:thaumonomicon>)
+
+//Set title String
+setTitle("Thaumonomicon")
+
+//Set description String
+setDescription("Siga os passos para obter o livro thaumonomicon, após isso as conquistas serão por lá")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/thuam")
+setRequiresParent(true)
+setRequirements("any")
+
+criteria1 = addCriteria("Obtenha Thaumonomicon", "minecraft:inventory_changed")
+criteria1.addItem(<thaumcraft:thaumonomicon>)

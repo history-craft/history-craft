@@ -1,0 +1,16 @@
+
+//Set icon item
+setIcon(<immersiveengineering:metal_device1>)
+
+//Set title String
+setTitle("Acelerando as coisas")
+
+//Set description String
+setDescription("Use duas Blast Furnace Pre-Heater de cada lado da Advanced Blast Furnace para acelerar a produção de Steel, precisa de energia para funcionar")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/energytransport")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça a Blast Furnace Pre-Heater", "triumph:player_crafted_item")
+criteria.setItem("immersiveengineering:metal_device1", 0)

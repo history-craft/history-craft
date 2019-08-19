@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"cobalt",Amount:144}}>)
+
+//Set title String
+setTitle("Xenônio - Xe")
+
+//Set description String
+setDescription("O xenônio é um elemento membro do grupo dos gases nobres ou inertes. A palavra inerte já não é mais usada para descrever este grupo químico, dado que alguns elementos deste grupo formam compostos. Num tubo cheio de gás, o xenônio emite um bonito brilho azul quando excitado com uma descarga elétrica. Tem-se obtido xenônio metálico aplicando-lhe pressões de várias centenas de quilobares. O xenônio também pode formar solvatos com água, quando seus átomos ficam aprisionados na rede de moléculas de água. Não pode ser obtido no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(3947775)
+setCompletedTitleColor(3947775)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"noble_gases",Amount:1000})
+setPos(462,-88)

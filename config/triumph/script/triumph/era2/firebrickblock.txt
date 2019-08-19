@@ -1,0 +1,12 @@
+setTitle("Bloco Refratario")
+
+setIcon(<gregtech:metal_casing:1>)
+
+setDescription("Use os firebricks e pó de calcite para fazer os blocos")
+
+setParent("triumph:era2/firebrick")
+setRequiresParent(true)
+
+//Criteria
+criteria = addCriteria("Coloque no chão o Primitive Bricks", "minecraft:placed_block")
+criteria.setBlock(<gregtech:metal_casing:1>)

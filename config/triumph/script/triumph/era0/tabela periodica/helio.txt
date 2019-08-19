@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"knightslime",Amount:144}}>)
+
+//Set title String
+setTitle("Hélio - He")
+
+//Set description String
+setDescription("É um gás monoatômico, incolor e inodoro. O hélio tem o menor ponto de evaporação de todos os elementos químicos, e só pode ser solidificado sob pressões muito grandes. É o segundo elemento químico em abundância no universo, atrás do hidrogênio, mas na atmosfera terrestre encontram-se apenas traços, provenientes da desintegração de alguns elementos. Em alguns depósitos naturais de gas é encontrado em quantidade suficiente para a sua exploração; usado para o enchimento de balões e dirigíveis, como líquido refrigerante de materiais supercondutores criogênicos e como gás engarrafado utilizado em mergulhos de grande profundidade.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(3947775)
+setCompletedTitleColor(3947775)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"helium",Amount:1000}) 
+setPos(462,-192)

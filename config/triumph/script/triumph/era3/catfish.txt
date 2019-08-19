@@ -1,0 +1,18 @@
+//Set icon item
+setIcon(<drpmedieval:raw_catfish>)
+
+//Set title String
+setTitle("Fazenda de Peixes")
+
+//Set description String
+setDescription("Use a Fish Farm para pegar esse peixe exclusivo (e os outros normais também)")
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/mcontroler")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Faça a Fish Farm e obtenha o Catfish", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("drpmedieval:raw_catfish")

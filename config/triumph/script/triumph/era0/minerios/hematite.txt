@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_hematite_0>)
+
+//Set title String
+setTitle("Hematite")
+
+//Set description String
+setDescription("Hematita, cuja fórmula é Fe2O3, é um óxido de ferro de ocorrência frequente em solos e rochas. Está entre a camada 5 e 65.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Emerald", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_hematite_0")
+setPos(-360,-59)

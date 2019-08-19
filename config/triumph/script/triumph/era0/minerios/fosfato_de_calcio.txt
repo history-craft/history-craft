@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("libvulpes:ore0",5)
+
+//Set title String
+setTitle("Fosfato de cálcio")
+
+//Set description String
+setDescription("Fosfato de cálcio é o nome dado a um grupo de minerais que contém íons de cálcio [Ca2+] juntamente com ortofosfatos [PO43-], metafosfatos ou pirofosfatos [P2O74-] e ocasionalmente hidrogênio ou íons de hidróxido. Sua fórmula molecular é Ca3[PO4]2.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Phosphor", "minecraft:inventory_changed")
+criteria.setItem("libvulpes:ore0",5)
+setPos(-360,-192)

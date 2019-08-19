@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobultion:mother_spider",
+  "Registry ID": "mobultion:mother_spider",
+  "Class": "mcpecommander.mobultion.entity.entities.spiders.EntityMotherSpider"
+}

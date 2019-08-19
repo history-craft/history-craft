@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<techguns:basicore:2>)
+
+//Set title String
+setTitle("Molibdenite")
+
+//Set description String
+setDescription("A molibdenita é um mineral do dissulfeto de molibdênio, MoS2. Similar na aparência e sensação de grafite, molibdenita tem um efeito lubrificante que é uma consequência da sua estrutura em camadas. Encontrado entre 0 e 30")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("techguns:basicore",2)
+setPos(-334,-113)

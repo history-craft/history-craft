@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10056>)
+
+//Set title String
+setTitle("Promécio - Pm")
+
+//Set description String
+setDescription("O promécio é um leve emissor de partículas betas, porém não emite radiações gama. Porém , pode ocorrer emissão de raios-X quando as partículas beta atingem elementos com números atômicos mais altos. Pouco é conhecido sobre as propriedades químicas e físicas do promécio metálico, porém são semelhantes ao neodímio e samário. O promécio apresenta duas variedades alotrópicas.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16749359)
+setCompletedTitleColor(16749359)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10056)
+setPos(202,-10)

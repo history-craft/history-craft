@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_gold_0>)
+
+//Set title String
+setTitle("Gold")
+
+//Set description String
+setDescription("O ouro é um elemento químico (símbolo Au) de número atómico 79 (79 prótons e 79 eléctrons) que está situado no grupo 11 (anteriormente chamado IB) da tabela periódica, e de massa atómica 197 u. Na natureza, o ouro é produzido a partir da colisão de duas estrelas de nêutrons. O ouro é utilizado de forma generalizada em joalharia, indústria e eletrônica, bem como reserva de valor. Localizado entre as camadas 8 e 50")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Emerald", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_gold_0")
+setPos(-412,-59)

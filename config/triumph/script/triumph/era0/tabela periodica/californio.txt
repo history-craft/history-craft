@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10049>)
+
+//Set title String
+setTitle("Califórnio - Cf")
+
+//Set description String
+setDescription("Foi descoberto em 1950 por uma equipe de pesquisadores estadunidense na Universidade da Califórnia, Berkeley, bombardeando o elemento cúrio com partículas alfa. Não se pode obter no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16748475)
+setCompletedTitleColor(16748475)
+setRequirements("any")
+setRequiresParent(false)
+criteria2 = addCriteria("Tenha Calcium ", "minecraft:inventory_changed")
+criteria2.addItem("gregtech:meta_item_1",10002)
+setPos(332,16)

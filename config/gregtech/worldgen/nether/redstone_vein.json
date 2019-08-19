@@ -1,0 +1,24 @@
+{
+  "weight": 60,
+  "density": 0.4,
+  "max_height": 40,
+  "min_height": 10,
+  "dimension_filter": ["is_nether"],
+
+  "generator": {
+    "type": "ellipsoid",
+    "radius": [12, 12]
+  },
+  "filler": {
+    "type": "simple",
+    "value": {
+      "type": "weight_random",
+      "values": [
+		{
+          "weight": 100,
+          "value": "ore:cinnabar"
+        }
+      ]
+    }
+  }
+}

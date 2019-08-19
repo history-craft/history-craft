@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "contenttweaker:asphalt_strip_45_lateral2"
+		},
+		"inventory": {
+			"model": "contenttweaker:asphalt_strip_45_lateral2",
+			"transform": "forge:default-block"
+		}
+	}
+}

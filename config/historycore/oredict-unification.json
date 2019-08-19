@@ -1,0 +1,26 @@
+{
+  "modOrderId": [
+    "minecraft",
+    "gregtech"
+  ],
+  "oreDicts": [
+    {
+      "oreDict": "plate"
+    },
+    {
+      "oreDict": "rod"
+    },
+    {
+      "oreDict": "ingot"
+    },
+	{
+      "oreDict": "stick"
+    },
+	{
+      "oreDict": "dust"
+    },
+	{
+      "oreDict": "nugget"
+    }
+  ]
+}

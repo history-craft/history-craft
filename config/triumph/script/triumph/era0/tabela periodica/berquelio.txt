@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10049>)
+
+//Set title String
+setTitle("Berquélio - Bk")
+
+//Set description String
+setDescription("Quantidades macroscópicas de berquélio-249 (vida-média de 324 dias) obtidas sinteticamente tornaram possível determinar algumas das propriedades do elemento. Mesmo que, até o presente momento não tenha sido isolado na forma elementar, é possível prever que se trata de um elemento de aspecto prateado metálico, que oxida-se facilmente no ar em temperaturas elevadas, e será solúvel em ácidos minerais diluídos.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16748475)
+setCompletedTitleColor(16748475)
+setRequirements("any")
+setRequiresParent(false)
+criteria2 = addCriteria("Tenha Calcium ", "minecraft:inventory_changed")
+criteria2.addItem("gregtech:meta_item_1",10002)
+setPos(306,16)

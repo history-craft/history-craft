@@ -1,0 +1,21 @@
+//This tells the script parser that the script requires Immersive Engineering. If the mod is not loaded, the script will be canceled.
+Parser.addRequiredMod("immersiveengineering")
+
+//Set the icon item
+setIcon(<immersiveengineering:coresample, meta:0, count:1, nbt:{oil:9507405,resType:"oil",coords:[I;0,-11,14],timestamp:5082906L}>)
+
+//Set the title String
+setTitle("Pumpjack")
+
+//Set the description String
+setDescription("Construa uma Pumpjack do Immersive Petreleum em uma area com reservas petroliferas para extrair o oleo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/coresample")
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Monte a IP Pumpjack", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IP:Pumpjack")

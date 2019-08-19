@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobultion:wither_spider",
+  "Registry ID": "mobultion:wither_spider",
+  "Class": "mcpecommander.mobultion.entity.entities.spiders.EntityWitherSpider"
+}

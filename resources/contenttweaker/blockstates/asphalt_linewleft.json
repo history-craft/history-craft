@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "contenttweaker:asphalt_linewleft"
+		},
+		"inventory": {
+			"model": "contenttweaker:asphalt_linewleft",
+			"transform": "forge:default-block"
+		}
+	}
+}

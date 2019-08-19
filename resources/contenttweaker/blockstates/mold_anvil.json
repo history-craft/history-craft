@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "contenttweaker:mold_block"
+		},
+		"inventory": {
+			"model": "contenttweaker:mold_block",
+			"transform": "forge:default-block"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<immersiverailroading:item_large_wrench>)
+
+//Set title String
+setTitle("Maior Wrench")
+
+//Set description String
+setDescription("Faça a Large Wrench para montar os trens e trilhos.... Aja Steel")
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/trembook")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Large Wrench", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem("immersiverailroading:item_large_wrench")
+setPos(122,93)

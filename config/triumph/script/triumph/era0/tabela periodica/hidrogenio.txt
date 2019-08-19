@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"hydrogen",Amount:144}}>)
+
+//Set title String
+setTitle("Hidrogénio - H")
+
+//Set description String
+setDescription("O hidrogénio é o mais abundante dos elementos químicos, constituindo aproximadamente 75% da massa elementar do Universo. Estrelas na sequência principal são compostas primariamente de hidrogénio em seu estado de plasma. O Hidrogénio elementar é relativamente raro na Terra, e é industrialmente produzido a partir de hidrocarbonetos presentes no gás natural, tais como metano, após o qual a maior parte do hidrogénio elementar é usada 'em cativeiro'. Os maiores mercados do mundo usufruem do uso do hidrogénio para o aprimoramento de combustíveis fósseis e na produção de amoníaco. O hidrogénio também pode ser obtido por meio da eletrólise da água, porém, este processo é atualmente dispendioso, o que privilegia sua obtenção a partir do gás natural.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(55296)
+setCompletedTitleColor(55296)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha um Balde com Hydrogen", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"hydrogen",Amount:1000})
+setPos(20,-192)

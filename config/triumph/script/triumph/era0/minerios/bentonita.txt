@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_bentonite_0>)
+
+//Set title String
+setTitle("Bentonita")
+
+//Set description String
+setDescription("Bentonita ou bentonite é a designação dada uma mistura de argilas geralmente impura, de grãos muito finos. O tamanho das partículas é seguramente inferior a 0,03% do grão médio da caolinita. Consiste principalmente de montmorillonite (60 a 80%) podendo conter outras argilas em maior ou menor proporção (nomeadamente illita e caulinita) além de quartzo, feldspatos, pirita ou calcita. Forma-se geralmente por alteração de cinzas vulcânicas. Contém muitas bases e ferro. É encontrado entre 0 e 25")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_bentonite_0")
+setPos(-333,-140)

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10238>)
+
+//Set title String
+setTitle("Zircônio - Zn")
+
+//Set description String
+setDescription("O zircônio é um elemento químico de símbolo Zr de número atômico 40 [40 prótons e 40 elétrons] e de massa atómica igual a 91 u. À temperatura ambiente, o zircônio encontra-se no estado sólido. Está situado no grupo 4 (anteriormente denominado IVB) da classificação periódica dos elementos. Foi descoberto em 1789 pelo alemão Martin Heinrich Klaproth. É um metal duro, resistente a corrosão, utilizado principalmente no revestimento de reatores nucleares.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10072)
+setPos(98,-88)

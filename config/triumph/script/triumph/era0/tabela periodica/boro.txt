@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2009>)
+
+//Set title String
+setTitle("Boro - B")
+
+//Set description String
+setDescription("É um elemento inerte, que é classificado como um metaloide, é encontrado em pequenas amostras em meteoroides, porém não são encontrados naturalmente na Terra. A produção industrial em seu estado nativo é difícil, tendo a produzir materiais refratários quando em contato com pequenas quantidades de carbono ou outros elementos químicos. Geralmente os alótropos de boro são amorfos, onde o boro é um pó marrom ou cristalino que é um material escurecido, com elevada dureza e com baixa condutividade elétrica em temperatura ambiente. A sua principal aplicação está na fabricação de produção de filamentos de boro, que são utilizados como um produto similar às fibras de carbono nos materiais com alta resistência mecânica, útil na indústria aeroespacial.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(11206488)
+setCompletedTitleColor(11206488)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2009) 
+setPos(332,-166)

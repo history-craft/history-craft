@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<immersiveengineering:metal:1>)
+
+//Set title String
+setTitle("Germânio - Ge")
+
+//Set description String
+setDescription("As aplicações do germânio estão limitadas ao seu alto custo e em muitos casos estuda-se a sua substituição por materiais mais econômicos. Sua aplicação principal é como semicondutor em eletrônica, produção de fibras ópticas e equipamentos de visão noturna. Este material não pode ser obtido no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(11206488)
+setCompletedTitleColor(11206488)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2182) 
+setPos(358,-114)

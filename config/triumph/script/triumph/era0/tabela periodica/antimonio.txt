@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2003>)
+
+//Set title String
+setTitle("Antimônio - Sb")
+
+//Set description String
+setDescription("O antimônio na sua forma elementar é um sólido cristalino, fundível, quebradiço, branco prateado que apresenta uma condutividade elétrica e térmica baixa, e evapora em baixas temperaturas. Este elemento semi-metálico (metalóide) se parece aos metais no aspecto e nas propriedades físicas, mas quimicamente não se comporta como eles. Pode ser atacado por ácidos oxidantes e halogênios.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(11206488)
+setCompletedTitleColor(11206488)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2003) 
+setPos(384,-88)

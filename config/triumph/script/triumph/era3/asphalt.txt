@@ -1,0 +1,19 @@
+
+//Set icon item
+setIcon(<contenttweaker:asphalt_strip_45>)
+
+//Set title String
+setTitle("Asfalto")
+
+//Set description String
+setDescription("Use o Bitumen derretido na smeltery por cima de um bloco de concreto (use a mixer do immersive engineering para fazer concreto) para fazer o asfalto")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/tower")
+setRequiresParent(true)
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Concrete Asphalt", "minecraft:inventory_changed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setItem("immersivepetroleum:stone_decoration")

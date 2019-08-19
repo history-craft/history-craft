@@ -1,0 +1,145 @@
+#sk_SK
+
+death.attack.basalz=%1$s bol ukame?ovan?!
+death.attack.blitz=%1$s bol tragicky osvieten?!
+death.attack.blizz=%1$s stretol mraziv? osud!
+death.attack.cryotheum.player=%1$s zamrzol pri ?teku od %2$s!
+death.attack.cryotheum=%1$s zamrzol!
+death.attack.flux.player=%2$s ufluxoval %1$s k smrti!
+death.attack.flux=%1$s mal roztrhan? realitu fluxom!
+death.attack.mana.player=%1$s zmenil skupenstvo pri ?teku od %2$s!
+death.attack.mana=%1$s bol roztrhan? surovou manou!
+death.attack.petrotheum.player=%1$s sa roztrie?til pri ?teku od %2$s!
+death.attack.petrotheum=%1$s bol rozlo?en?!
+death.attack.pyrotheum.player=%1$s zhorel za?iva pri ?teku od %2$s!
+death.attack.pyrotheum=%1$s si pom?lil pyroteum s vodou!
+
+fluid.aerotheum=Zaf?rske aeroteum
+fluid.coal=Tekut? uhlie
+fluid.cryotheum=?adov? kryoteum
+fluid.ender=Zvu?n? end?rium
+fluid.glowstone=Nabit? svietivec
+fluid.mana=Mana
+fluid.petrotheum=Tektonick? petroteum
+fluid.pyrotheum=S?laj?ce pyroteum
+fluid.redstone=Destabilizovan? rudit
+fluid.steam=Para
+
+gui.thermalfoundation.lexicon.study=Lexik?n - Znalosti
+gui.thermalfoundation.lexicon.transmute=Lexik?n - Transmut?cia
+
+item.thermalfoundation.material.crystalCinnabar.name=Rumelka
+
+item.thermalfoundation.material.dustAerotheum.name=Pr?kov? aeroteum
+item.thermalfoundation.material.dustBasalz.name=Basalz Powder
+item.thermalfoundation.material.dustBlitz.name=Blitz Powder
+item.thermalfoundation.material.dustBlizz.name=?adov? prach
+item.thermalfoundation.material.dustBronze.name=Bronzov? zmes
+item.thermalfoundation.material.dustCharcoal.name=Pr?kov? dreven? uhlie
+item.thermalfoundation.material.dustCoal.name=Pr?kov? uhlie
+item.thermalfoundation.material.dustCopper.name=Pr?kov? me?
+item.thermalfoundation.material.dustCryotheum.name=Pr?kov? kryoteum
+item.thermalfoundation.material.dustElectrum.name=Elektrov? zmes
+item.thermalfoundation.material.dustEnderium.name=End?rov? zmes
+item.thermalfoundation.material.dustGold.name=Pr?kov? zlato
+item.thermalfoundation.material.dustInvar.name=Invarov? zmes
+item.thermalfoundation.material.dustIron.name=Pr?kov? ?elezo
+item.thermalfoundation.material.dustLead.name=Pr?kov? olovo
+item.thermalfoundation.material.dustLumium.name=Lumiov? zmes
+item.thermalfoundation.material.dustMana.name=Pr?kov? mithril
+item.thermalfoundation.material.dustMithril.name=Pr?kov? mithril
+item.thermalfoundation.material.dustNickel.name=Pr?kov? nikel
+item.thermalfoundation.material.dustNiter.name=Liadok
+item.thermalfoundation.material.dustObsidian.name=Pr?kov? obsidi?n
+item.thermalfoundation.material.dustPetrotheum.name=Pr?kov? petroteum
+item.thermalfoundation.material.dustPlatinum.name=Pr?kov? platina
+item.thermalfoundation.material.dustPyrotheum.name=Pr?kov? pyroteum
+item.thermalfoundation.material.dustSignalum.name=Sign?lov? zmes
+item.thermalfoundation.material.dustSilver.name=Pr?kov? striebro
+item.thermalfoundation.material.dustSulfur.name=S?ra
+item.thermalfoundation.material.dustTin.name=Pr?kov? c?n
+
+item.thermalfoundation.material.gearBronze.name=Bronzov? ozuben? koleso
+item.thermalfoundation.material.gearCopper.name=Meden? ozuben? koleso
+item.thermalfoundation.material.gearElectrum.name=Elektrov? ozuben? koleso
+item.thermalfoundation.material.gearEnderium.name=Enderov? ozuben? koleso
+item.thermalfoundation.material.gearGold.name=Zlat? ozuben? koleso
+item.thermalfoundation.material.gearInvar.name=Invarov? ozuben? koleso
+item.thermalfoundation.material.gearIron.name=?elezn? ozuben? koleso
+item.thermalfoundation.material.gearLead.name=Oloven? ozuben? koleso
+item.thermalfoundation.material.gearLumium.name=Lumiov? ozuben? koleso
+item.thermalfoundation.material.gearMithril.name=Mithrilov? ozuben? koleso
+item.thermalfoundation.material.gearNickel.name=Nikeln? ozuben? koleso
+item.thermalfoundation.material.gearPlatinum.name=Platinov? ozuben? koleso
+item.thermalfoundation.material.gearSignalum.name=Sign?lov? ozuben? koleso
+item.thermalfoundation.material.gearSilver.name=Strieborn? ozuben? koleso
+item.thermalfoundation.material.gearTin.name=C?nov? ozuben? koleso
+
+item.thermalfoundation.material.ingotBronze.name=Bronzov? ingot
+item.thermalfoundation.material.ingotCopper.name=Meden? ingot
+item.thermalfoundation.material.ingotElectrum.name=Elektrov? ingot
+item.thermalfoundation.material.ingotEnderium.name=Enderov? ingot
+item.thermalfoundation.material.ingotInvar.name=Invarov? ingot
+item.thermalfoundation.material.ingotLead.name=Oloven? ingot
+item.thermalfoundation.material.ingotLumium.name=Lumiov? ingot
+item.thermalfoundation.material.ingotMithril.name=Mithrilov? ingot
+item.thermalfoundation.material.ingotNickel.name=Niklov? ingot
+item.thermalfoundation.material.ingotPlatinum.name=Platinov? ingot
+item.thermalfoundation.material.ingotSignalum.name=Sign?lov? ingot
+item.thermalfoundation.material.ingotSilver.name=Strieborn? ingot
+item.thermalfoundation.material.ingotTin.name=C?nov? ingot
+
+item.thermalfoundation.material.nuggetBronze.name=Bronzov? nuget
+item.thermalfoundation.material.nuggetCopper.name=Meden? nuget
+item.thermalfoundation.material.nuggetDiamond.name=Diamond Nugget
+item.thermalfoundation.material.nuggetElectrum.name=Elektrov? nuget
+item.thermalfoundation.material.nuggetEnderium.name=Enderov? nuget
+item.thermalfoundation.material.nuggetInvar.name=Invarov? nuget
+item.thermalfoundation.material.nuggetIron.name=?elezn? nuget
+item.thermalfoundation.material.nuggetLead.name=Oloven? nuget
+item.thermalfoundation.material.nuggetLumium.name=Lumiov? nuget
+item.thermalfoundation.material.nuggetMithril.name=Mithrilov? nuget
+item.thermalfoundation.material.nuggetNickel.name=Nikeln? nuget
+item.thermalfoundation.material.nuggetPlatinum.name=Platinov? nuget
+item.thermalfoundation.material.nuggetSignalum.name=Sign?lov? nuget
+item.thermalfoundation.material.nuggetSilver.name=Strieborn? nuget
+item.thermalfoundation.material.nuggetTin.name=C?nov? nuget
+
+item.thermalfoundation.material.rodBlizz.name=?adov? ty?
+
+item.thermalfoundation.tome.lexicon.empowered.name=Forge Lexik?n (Nabit?)
+item.thermalfoundation.tome.lexicon.name=Forge Lexik?n
+
+itemGroup.thermalfoundation.creativeTabArmor=Thermal Foundation: Brnenia
+itemGroup.thermalfoundation.creativeTabTools=Thermal Foundation: N?stroje
+
+tile.thermalfoundation.fluid.aerotheum.name=Zaf?rske aeroteum
+tile.thermalfoundation.fluid.cryotheum.name=?adov? kryoteum
+tile.thermalfoundation.fluid.ender.name=Zvu?n? end?rium
+tile.thermalfoundation.fluid.glowstone.name=Nabit? svietivec
+tile.thermalfoundation.fluid.mana.name=Mana
+tile.thermalfoundation.fluid.petrotheum.name=Tektonick? petroteum
+tile.thermalfoundation.fluid.pyrotheum.name=S?laj?ce pyroteum
+tile.thermalfoundation.fluid.redstone.name=Destabilizovan? rudit
+
+tile.thermalfoundation.ore.copper.name=Meden? ruda
+tile.thermalfoundation.ore.lead.name=Oloven? ruda
+tile.thermalfoundation.ore.mithril.name=Mithrilov? ruda
+tile.thermalfoundation.ore.nickel.name=Niklov? ruda
+tile.thermalfoundation.ore.platinum.name=Platinov? ruda
+tile.thermalfoundation.ore.silver.name=Strieborn? ruda
+tile.thermalfoundation.ore.tin.name=C?nov? ruda
+
+tile.thermalfoundation.storage.bronze.name=Bronzov? kocka
+tile.thermalfoundation.storage.copper.name=Meden? kocka
+tile.thermalfoundation.storage.electrum.name=Elektrov? kocka
+tile.thermalfoundation.storage.enderium.name=Enderiov? kocka
+tile.thermalfoundation.storage.invar.name=Invarov? kocka
+tile.thermalfoundation.storage.lead.name=Oloven? kocka
+tile.thermalfoundation.storage.lumium.name=Lumiov? kocka
+tile.thermalfoundation.storage.mithril.name=Mithrilov? kocka
+tile.thermalfoundation.storage.nickel.name=Niklov? kocka
+tile.thermalfoundation.storage.platinum.name=Platinov? kocka
+tile.thermalfoundation.storage.signalum.name=Sign?lov? kocka
+tile.thermalfoundation.storage.silver.name=Strieborn? kocka
+tile.thermalfoundation.storage.tin.name=C?nov? kocka

@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:ore_thorite_0>)
+
+//Set title String
+setTitle("Thorita")
+
+//Set description String
+setDescription("Thorite, (Th, U)SiO4, é um nesossilicato de tório raro que cristaliza no sistema tetragonal e é isomorfo com zircão e hafnon. É o mineral mais comum do tório e quase sempre é fortemente radioativo. Encontrado entre 20 e 75")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("gregtech:ore_thorite_0")
+setPos(-307,-113)

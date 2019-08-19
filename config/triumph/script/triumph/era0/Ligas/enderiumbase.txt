@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<enderio:item_material:39>)
+
+//Set title String
+setTitle("Enderium Base")
+
+//Set description String
+setDescription("O Enderium Base é uma liga ficticia criada especialmente para o jogo pelo mod EnderIO, é composta de Chumbo e Platina. Seu unico uso consiste em ser a base para a criação da outra liga Enderium")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Enderium base", "minecraft:inventory_changed")
+criteria.setItem("enderio:item_material",39)
+setPos(-129,16)

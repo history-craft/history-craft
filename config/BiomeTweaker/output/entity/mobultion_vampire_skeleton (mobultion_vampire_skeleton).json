@@ -1,0 +1,6 @@
+
+{
+  "Name": "mobultion:vampire_skeleton",
+  "Registry ID": "mobultion:vampire_skeleton",
+  "Class": "mcpecommander.mobultion.entity.entities.skeletons.EntityVampireSkeleton"
+}

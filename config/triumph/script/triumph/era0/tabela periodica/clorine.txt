@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gtsharp:gtsharp_metaitem, meta:3405, count:1, nbt:{Fluid:{FluidName:"chlorine",Amount:144}}>)
+
+//Set title String
+setTitle("Cloro - Cl")
+
+//Set description String
+setDescription("O composto mais comum de cloro, cloreto de sódio (sal comum), é conhecida desde os tempos antigos. Por volta de 1630, o gás de cloro foi primeiramente sintetizado em uma reação química, mas descartada como uma substância fundamentalmente importante. Sua caracterização foi feita em 1774 por Carl Wilhelm Scheele, que supôs como sendo um óxido de um novo elemento.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(55296)
+setCompletedTitleColor(55296)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("forge:bucketfilled", 0, {FluidName:"chlorine",Amount:1000}) 
+setPos(436,-140)

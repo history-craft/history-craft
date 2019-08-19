@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("immersiveengineering:ore",3)
+
+//Set title String
+setTitle("Cassiterita")
+
+//Set description String
+setDescription("Cassiterita ou cassiterite é um dióxido natural e principal minério de estanho [SnO2], de cor cinza, é encontrado proximo de jazidas de Zinco. Dentre os produtores de estranho de cassiterita no mundo estão os Estados Unidos da América, Bolívia, Brasil [sobretudo Rondônia e Amazonas],Portugal ,Indonésia, Malásia, Tailândia e Rússia. No passado, expressiva produção provinha das minhas da Cornualha, na Inglaterra.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Cassiterita", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:ore",3)
+setPos(-412,-166)

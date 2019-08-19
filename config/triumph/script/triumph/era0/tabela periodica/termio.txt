@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10068>)
+
+//Set title String
+setTitle("Térbio - Tb")
+
+//Set description String
+setDescription("O térbio nunca é encontrado na natureza na forma livre. Porém participa da composição de muitos minerais tais como cerita, gadolinita, monazita ((Ce, La,Th, Nd, Y) PO4, que contém até 0,03% de térbio), xenotima (YPO4) e euxenita ((Y, Ca, Er, La, Ce, U, Th)(Nb, Ta, Ti)2O6), que contém 1% ou mais de térbio.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16749359)
+setCompletedTitleColor(16749359)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10068)
+setPos(306,-10)

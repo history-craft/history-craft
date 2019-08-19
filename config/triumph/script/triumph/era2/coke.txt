@@ -1,0 +1,13 @@
+setTitle("Coque")
+
+setIcon(<immersiveengineering:material:6>)
+
+setDescription("O coque é um tipo de combustível derivado da hulha (carvão betuminoso). Começou a ser utilizado na Inglaterra do século XVIII. O coque obtém-se do aquecimento da hulha [ou carvão mineral], sem combustão, num recipiente fechado. Pode ser utilizado na produção de ferro-gusa [alto-forno], sendo adicionado junto com a carga metálica.")
+
+setParent("triumph:era2/cokeoven")
+setRequiresParent(true)
+setRequirements("any")
+
+//Criteria
+criteria1 = addCriteria("Obtenha Coal Coke", "minecraft:inventory_changed")
+criteria1.addItem(<immersiveengineering:material:6>)

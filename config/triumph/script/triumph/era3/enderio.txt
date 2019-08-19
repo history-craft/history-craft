@@ -1,0 +1,20 @@
+//Set the icon item
+setIcon(<enderio:item_material>)
+
+//Set the title String
+setTitle("EnderIO")
+
+//Set the description String
+setDescription("Use a Arc Furnace para produzir o primeiro Chassis das maquinas do EnderIO, veja no JEI as maquinas que podem ser feitas a partir dele")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/arcfurnace")
+setRequiresParent(true)
+
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Simple Machine Chassis", "minecraft:inventory_changed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setItem("enderio:item_material")
+setPos(160,116)

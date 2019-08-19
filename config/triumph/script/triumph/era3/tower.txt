@@ -1,0 +1,19 @@
+
+//Set icon item
+setIcon(<gregtech:meta_item_1:7324>)
+
+//Set title String
+setTitle("Ouro negro")
+
+//Set description String
+setDescription("Após usar a Oil Heater para aquecer o petroleo bruto, coloque na Distillation Tower para separar os hidrocarbonetos")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/oilpump")
+setRequiresParent(true)
+
+//Adds criteria named "formed" with the trigger type "immersiveengineering:multiblock_formed". This function returns the criteria as an object
+criteria = addCriteria("Monte a IP Distillation Tower", "immersiveengineering:multiblock_formed")
+
+//Sets the required multiblock for the criteria. This is the multiblock that needs to be formed.
+criteria.setMultiblock("IP:DistillationTower")

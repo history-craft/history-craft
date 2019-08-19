@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<immersiveengineering:ore:5>)
+
+//Set title String
+setTitle("Pechblenda")
+
+//Set description String
+setDescription("A Pechblenda é uma variedade, provavelmente impura, de uraninita. Dela é retirado o urânio, que é constituinte de muitas rochas. É extraído do minério, purificado e concentrado sob a forma de um sal de cor amarela, conhecido como 'yellowcake'. Yellowcake significa, literalmente, 'bolo amarelo'. Deve seu nome à intensa coloração amarela, característica dos compostos secundários de urânio. O minério de urânio é retirado da mina e, após processos de extração, é enviado para usina de beneficiamento para obtenção do concentrado de urânio, cuja composição química é o octóxido de urânio, conhecido como yellowcake (U3O8). Encontrado entre 20 e 75")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Ilmenite", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:ore",5)
+setPos(-281,-113)

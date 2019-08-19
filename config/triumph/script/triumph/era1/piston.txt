@@ -1,0 +1,19 @@
+
+//Set icon item
+setIcon("minecraft:piston")
+
+//Set title String
+setTitle("Automações simples")
+
+//Set description String
+setDescription("Use o Bronze e Redstone para fazer o pistão e com ele, algumas simples automações. Você ainda não tem redstone? Mate uns Zombie Miner's")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era1/alloykiln")
+setRequiresParent(true)
+
+
+criteria = addCriteria("Faça um Piston", "triumph:player_crafted_item")
+criteria.setItem("minecraft:piston")
+
+setRewardFunction("triumph:itens/piston")

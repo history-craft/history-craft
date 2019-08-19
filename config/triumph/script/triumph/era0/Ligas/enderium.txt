@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10976>)
+
+//Set title String
+setTitle("Enderium")
+
+//Set description String
+setDescription("O Enderium é uma liga ficticia criada especialmente para o jogo pelo mod Thermal Expansion, é composta de Enderium Base e Ender Pearl (material também ficticio). Seu uso abranje a criação de componentes de alta voltagem, canos com alto indice de fluidez, bombas de infinito poder de sucção e etc")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Enderium", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",10976)
+setPos(-103,16)

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:2005>)
+
+//Set title String
+setTitle("Arsênio - As")
+
+//Set description String
+setDescription("Conservante de couro e madeira (arseniato de cobre e crômio), uso que representa, segundo algumas estimativas, cerca de 70% do seu consumo mundial. O arsenieto de gálio é um importante semicondutor empregado em circuitos integrados mais rápidos e caros que os de silício. Aditivo em ligas metálicas de chumbo e latão. Inseticida (arseniato chumbo), herbicidas (arsenito de sódio) e venenos. O dissulfeto de arsênio é usado como pigmento e em pirotécnica. Descolorante na fabricação do vidro (trióxido de arsênio).")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(11206488)
+setCompletedTitleColor(11206488)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2005) 
+setPos(384,-114)

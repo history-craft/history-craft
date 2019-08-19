@@ -1,0 +1,17 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10112>)
+
+//Set title String
+setTitle("Electro")
+
+//Set description String
+setDescription("O Electro é uma liga que ocorre naturalmente de ouro e prata, com vestígios de cobre e outros metais. Também tem sido produzido artificialmente e é conhecido como ouro verde. O electro consiste principalmente de ouro e prata, mas às vezes é encontrado com vestígios de platina, cobre e outros metais. Análises da composição do electro na antiga cunhagem grega que data de cerca de 600 a.C. mostra que a composição de ouro era de cerca de 55,5% na cunhagem emitida pela Foceia. No período clássico inicial, o teor de ouro no electro variava de 46% na Foceia para 43% em Mitilene. Na cunhagem mais recente destas áreas, datando de 326 a.C., o teor de ouro em média era de 40% a 41%. No período helenístico, moedas de electro com uma proporção decrescente regularmente de ouro foram emitidas pelos cartagineses. No extinto Império Romano do Oriente, controlado por Constantinopla, a pureza da cunhagem de ouro foi reduzida, e uma liga que pode ser chamada de electro começou a ser usado.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Electro", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",10112)
+setPos(-103,-166)

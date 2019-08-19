@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10232>)
+
+//Set title String
+setTitle("Rutênio  - Ru")
+
+//Set description String
+setDescription("É um elemento do grupo do ferro da classificação periódica dos elementos. É um metal de transição, pouco abundante, encontrado normalmente em minas de platina. É empregado como catalisador e em ligas metálicas de alta resistência com platina ou paládio. Não pode ser obtido no jogo")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",2108)
+setPos(202,-88)

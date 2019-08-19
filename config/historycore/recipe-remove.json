@@ -1,0 +1,31 @@
+{
+  "mods": [
+    {
+      "modId": "appliedenergistics2",
+      "hide": "false",
+      "whiteList": []
+    },
+    {
+      "modId": "techguns",
+      "hide": "false",
+      "whiteList": []
+    },
+
+    {
+      "modId": "extrautils2",
+      "hide": "false",
+      "whiteList": [
+        "extrautils2:trashcanfluid",
+        "extrautils2:trashcan",
+	"extrautils2:itembuilderswand",
+	"extrautils2:itemdestructionwand",
+	"extrautils2:angelblock"
+
+      ]
+    }
+  ],
+  "removedMachineOres": [
+    "Aluminium",
+	"Cobalt"
+  ]
+}

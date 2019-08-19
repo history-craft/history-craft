@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("gregtech:meta_item_1",10512)
+
+//Set title String
+setTitle("Ferro-Gusa")
+
+//Set description String
+setDescription("O ferro-gusa é o produto imediato da redução do minério de ferro pelo coque ou carvão e calcário num alto forno. O gusa normalmente contém até 5% de carbono, o que faz com que seja um material quebradiço e sem grande uso direto. Geralmente nos processos industriais, o ferro gusa é considerado como uma liga de ferro e carbono, contendo de 2,11 a 5,00 % de carbono e outros elementos ditos residuais, como silício, manganês, fósforo e enxofre. O gusa é vertido diretamente a partir do cadinho do alto forno para contentores para formar lingotes, ou usado diretamente no estado líquido em aciarias ou fundições. Os lingotes são então usados para produzir ferro fundido e aço, ao extrair-se o carbono em excesso.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Crude Iron", "minecraft:inventory_changed")
+criteria.setItem("gregtech:meta_item_1",9512)
+setPos(-129,-192)

@@ -1,0 +1,17 @@
+//Set icon item
+setIcon("immersiveengineering:ore")
+
+//Set title String
+setTitle("Malachita")
+
+//Set description String
+setDescription("A malaquita é um mineral de hidróxido de carbonato de cobre, com a fórmula Cu2CO3[OH]2. Este mineral de faixa verde opaca cristaliza no sistema de cristal monoclínico e, na maioria das vezes, forma massas botrioidais, fibrosas ou estalagmíticas, em fraturas e espaços, no subsolo, onde o lençol freático e os fluidos hidrotermais fornecem os meios para a precipitação química. Cristais individuais são raros, mas ocorrem como prismas delgados a aciculares. Pseudomorfos após mais cristais de azurita tabulares ou em blocos também ocorrem.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setRequirements("any")
+setRequiresParent(false)
+criteria = addCriteria("Obtenha Malachita", "minecraft:inventory_changed")
+criteria.setItem("immersiveengineering:ore")
+setPos(-412,-192)

@@ -1,0 +1,16 @@
+
+//Set icon item
+setIcon(<gregtech:machine:950>)
+
+//Set title String
+setTitle("Coletor de ar")
+
+//Set description String
+setDescription("Colete o ar da Atmosfera com essa maquina, essencial para retiramos alguns gases")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era3/energytransport")
+setRequiresParent(true)
+
+criteria = addCriteria("Faça a Air Collector (GregTech)", "triumph:player_crafted_item")
+criteria.setItem("gregtech:machine",950)

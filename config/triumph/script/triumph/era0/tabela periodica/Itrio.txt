@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<gregtech:meta_item_1:10078>)
+
+//Set title String
+setTitle("Ítrio - Y")
+
+//Set description String
+setDescription("O Ítrio é um elemento químico de símbolo Y, número atômico 39 [39 prótons e 39 elétrons], com massa atómica 88,90584 u. Na temperatura ambiente o ítrio encontra-se no estado sólido. É um metal da série metal de transição pertencente ao grupo 3 da Classificação Periódica dos Elementos. É comum em minérios lantanídeo, e dois de seus componentes são usados para a obtenção da imagem vermelha em televisão a cores.")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era0/root")
+hideLines()
+setCompletedIconColor(16730441)
+setCompletedTitleColor(16730441)
+setRequirements("any")
+setRequiresParent(false)
+criteria1 = addCriteria("Tenha Calcium Dust", "minecraft:inventory_changed")
+criteria1.addItem("gregtech:meta_item_1",10078)
+setPos(72,-88)

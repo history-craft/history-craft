@@ -1,0 +1,22 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"1": "contenttweaker:blocks/strip_hori_y_u",
+		"4": "contenttweaker:blocks/asphalt",
+		"particle": "contenttweaker:blocks/asphalt"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 14, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#4"}
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+//Set icon item
+setIcon(<waterworks:rain_tank_wood>)
+
+//Set title String
+setTitle("Tá com sede?")
+
+//Set description String
+setDescription("Recolha água da chuva com esse tanque")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:era2/root")
+
+//Adds criteria named "brokeLog" with the trigger type "triumph:player_break_block". This function returns the criteria as an object
+criteria = addCriteria("Obtenha Wooden Rain Tank", "minecraft:inventory_changed")
+setRequiresParent(true)
+
+
+//Sets the required block for the criteria. This is the block that needs to be broken by the player.
+criteria.setItem(<waterworks:rain_tank_wood>)
